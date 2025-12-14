@@ -14,4 +14,5 @@ export interface Product {
     height: number;
     depth?: number;
   };
+  manufacturerUrl?: string;
 }

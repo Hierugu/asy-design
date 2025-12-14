@@ -107,16 +107,31 @@ export default function ProductModal({ product, isOpen, onClose }: ProductModalP
                     </span>
                   </div>
                   
-                  <button
-                    disabled={!product.inStock}
-                    className={`w-full py-3 rounded-lg font-medium text-lg transition-colors ${
-                      product.inStock
-                        ? 'bg-[#2D3436] text-white hover:bg-[#1a1d1f]'
-                        : 'bg-gray-300 text-[#636E72] cursor-not-allowed'
-                    }`}
-                  >
-                    {product.inStock ? 'Добавить в корзину' : 'Нет в наличии'}
-                  </button>
+                  {product.manufacturerUrl ? (
+                    <a
+                      href={product.manufacturerUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`block w-full py-3 rounded-lg font-medium text-lg text-center transition-colors ${
+                        product.inStock
+                          ? 'bg-[#2D3436] text-white hover:bg-[#1a1d1f]'
+                          : 'bg-gray-300 text-[#636E72] cursor-not-allowed pointer-events-none'
+                      }`}
+                    >
+                      {product.inStock ? 'Перейти на сайт производителя' : 'Нет в наличии'}
+                    </a>
+                  ) : (
+                    <button
+                      disabled={!product.inStock}
+                      className={`w-full py-3 rounded-lg font-medium text-lg transition-colors ${
+                        product.inStock
+                          ? 'bg-[#2D3436] text-white hover:bg-[#1a1d1f]'
+                          : 'bg-gray-300 text-[#636E72] cursor-not-allowed'
+                      }`}
+                    >
+                      {product.inStock ? 'Перейти на сайт производителя' : 'Нет в наличии'}
+                    </button>
+                  )}
                 </div>
               </div>
             </div>
