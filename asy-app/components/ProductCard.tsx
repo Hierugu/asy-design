@@ -12,7 +12,7 @@ export default function ProductCard({ product, onClick }: ProductCardProps) {
   return (
     <div
       onClick={() => onClick(product)}
-      className="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
+      className="bg-[rgb(192_213_206)] rounded-lg shadow-md overflow-hidden cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
     >
       <div className="relative h-64 bg-gray-200">
         <div className="absolute inset-0 flex items-center justify-center text-gray-400">

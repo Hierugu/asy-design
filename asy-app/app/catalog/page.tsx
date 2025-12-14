@@ -42,7 +42,7 @@ export default function CatalogPage() {
             className={`px-6 py-2 rounded-lg font-medium transition-colors ${
               filter === 'all'
                 ? 'bg-[#2D3436] text-white'
-                : 'bg-white text-[#2D3436] hover:bg-gray-100'
+                : 'bg-[rgb(192_213_206)] text-[#2D3436] hover:bg-[rgb(192_213_206)]'
             }`}
           >
             Все товары ({products.length})
@@ -52,7 +52,7 @@ export default function CatalogPage() {
             className={`px-6 py-2 rounded-lg font-medium transition-colors ${
               filter === 'furniture'
                 ? 'bg-[#2D3436] text-white'
-                : 'bg-white text-[#2D3436] hover:bg-gray-100'
+                : 'bg-[rgb(192_213_206)] text-[#2D3436] hover:bg-[rgb(192_213_206)]'
             }`}
           >
             Мебель ({products.filter(p => p.category === 'furniture').length})
@@ -62,7 +62,7 @@ export default function CatalogPage() {
             className={`px-6 py-2 rounded-lg font-medium transition-colors ${
               filter === 'decor'
                 ? 'bg-[#2D3436] text-white'
-                : 'bg-white text-[#2D3436] hover:bg-gray-100'
+                : 'bg-[rgb(192_213_206)] text-[#2D3436] hover:bg-[rgb(192_213_206)]'
             }`}
           >
             Декор ({products.filter(p => p.category === 'decor').length})

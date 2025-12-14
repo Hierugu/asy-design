@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ASY Design - Мебель и Декор",
-  description: "Каталог мебели и декора для вашего дома",
+  title: "Домострой - Российские товары для дома",
+  description: "Платформа импортозамещения в строительстве и отделке. Лучшие российские производители мебели и материалов в одном месте.",
 };
 
 export default function RootLayout({

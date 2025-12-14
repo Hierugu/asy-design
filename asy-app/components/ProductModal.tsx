@@ -33,7 +33,7 @@ export default function ProductModal({ product, isOpen, onClose }: ProductModalP
         />
 
         {/* Modal */}
-        <div className="relative bg-white rounded-lg shadow-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+        <div className="relative bg-[rgb(192_213_206)] rounded-lg shadow-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
           {/* Close button */}
           <button
             onClick={onClose}

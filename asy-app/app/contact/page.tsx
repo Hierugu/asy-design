@@ -7,7 +7,7 @@ export default function ContactPage() {
         <div className="grid md:grid-cols-2 gap-8">
           {/* Contact Info */}
           <div>
-            <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
+            <div className="bg-[rgb(192_213_206)] rounded-lg shadow-sm p-6 mb-6">
               <h2 className="text-2xl font-semibold text-[#2D3436] mb-6">Как с нами связаться</h2>
               
               <div className="space-y-4">
@@ -68,7 +68,7 @@ export default function ContactPage() {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-white rounded-lg shadow-sm p-6">
+          <div className="bg-[rgb(192_213_206)] rounded-lg shadow-sm p-6">
             <h2 className="text-2xl font-semibold text-[#2D3436] mb-6">Напишите нам</h2>
             
             <form className="space-y-4">
@@ -79,7 +79,7 @@ export default function ContactPage() {
                 <input
                   type="text"
                   id="name"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#D8A318] focus:border-transparent"
+                  className="w-full px-4 py-2 bg-[#b2c7c0] border-2 border-[hsl(160deg_9.66%_60.07%)] rounded-lg focus:ring-2 focus:ring-[#D8A318] focus:border-[hsl(160deg_9.66%_60.07%)]"
                   placeholder="Иван Иванов"
                 />
               </div>
@@ -91,7 +91,7 @@ export default function ContactPage() {
                 <input
                   type="email"
                   id="email"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#D8A318] focus:border-transparent"
+                  className="w-full px-4 py-2 bg-[#b2c7c0] border-2 border-[hsl(160deg_9.66%_60.07%)] rounded-lg focus:ring-2 focus:ring-[#D8A318] focus:border-[hsl(160deg_9.66%_60.07%)]"
                   placeholder="ivan@example.com"
                 />
               </div>
@@ -103,7 +103,7 @@ export default function ContactPage() {
                 <input
                   type="tel"
                   id="phone"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#D8A318] focus:border-transparent"
+                  className="w-full px-4 py-2 bg-[#b2c7c0] border-2 border-[hsl(160deg_9.66%_60.07%)] rounded-lg focus:ring-2 focus:ring-[#D8A318] focus:border-[hsl(160deg_9.66%_60.07%)]"
                   placeholder="+7 (___) ___-__-__"
                 />
               </div>
@@ -115,7 +115,7 @@ export default function ContactPage() {
                 <textarea
                   id="message"
                   rows={5}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#D8A318] focus:border-transparent resize-none"
+                  className="w-full px-4 py-2 bg-[#b2c7c0] border-2 border-[hsl(160deg_9.66%_60.07%)] rounded-lg focus:ring-2 focus:ring-[#D8A318] focus:border-[hsl(160deg_9.66%_60.07%)] resize-none"
                   placeholder="Ваше сообщение..."
                 />
               </div>
