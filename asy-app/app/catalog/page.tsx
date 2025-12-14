@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { products } from '@/data/products';
 import ProductCard from '@/components/ProductCard';
 import ProductModal from '@/components/ProductModal';
@@ -9,7 +9,31 @@ import { Product } from '@/types/product';
 export default function CatalogPage() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [filter, setFilter] = useState<'all' | 'furniture' | 'decor'>('all');
+
+  type CategoryFilter =
+    | 'all'
+    | 'tables'
+    | 'beds'
+    | 'shelving'
+    | 'chairs'
+    | 'mirrors'
+    | 'sofas'
+    | 'rugs'
+    | 'lamps';
+
+  const [filter, setFilter] = useState<CategoryFilter>('all');
+
+  const categoryOptions: { key: CategoryFilter; label: string }[] = [
+    { key: 'all', label: 'Все товары' },
+    { key: 'tables', label: 'Столы' },
+    { key: 'beds', label: 'Кровати' },
+    { key: 'shelving', label: 'Стеллажи' },
+    { key: 'chairs', label: 'Стулья' },
+    { key: 'mirrors', label: 'Зеркала' },
+    { key: 'sofas', label: 'Диваны' },
+    { key: 'rugs', label: 'Ковры' },
+    { key: 'lamps', label: 'Лампы' },
+  ];
 
   const handleProductClick = (product: Product) => {
     setSelectedProduct(product);
@@ -25,6 +49,27 @@ export default function CatalogPage() {
     ? products
     : products.filter(p => p.category === filter);
 
+  const countsByCategory = useMemo(() => {
+    const counts: Record<CategoryFilter, number> = {
+      all: products.length,
+      tables: 0,
+      beds: 0,
+      shelving: 0,
+      chairs: 0,
+      mirrors: 0,
+      sofas: 0,
+      rugs: 0,
+      lamps: 0,
+    };
+
+    products.forEach((p) => {
+      counts.all += 0; // all already set to length
+      counts[p.category as Exclude<CategoryFilter, 'all'>] += 1;
+    });
+
+    return counts;
+  }, []);
+
   return (
     <main className="min-h-screen bg-[rgb(178_199_192)] py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -36,37 +81,20 @@ export default function CatalogPage() {
         </div>
 
         {/* Filters */}
-        <div className="mb-8 flex gap-4">
-          <button
-            onClick={() => setFilter('all')}
-            className={`px-6 py-2 rounded-lg font-medium transition-colors ${
-              filter === 'all'
-                ? 'bg-[#2D3436] text-white'
-                : 'bg-[rgb(192_213_206)] text-[#2D3436] hover:bg-[rgb(192_213_206)]'
-            }`}
-          >
-            Все товары ({products.length})
-          </button>
-          <button
-            onClick={() => setFilter('furniture')}
-            className={`px-6 py-2 rounded-lg font-medium transition-colors ${
-              filter === 'furniture'
-                ? 'bg-[#2D3436] text-white'
-                : 'bg-[rgb(192_213_206)] text-[#2D3436] hover:bg-[rgb(192_213_206)]'
-            }`}
-          >
-            Мебель ({products.filter(p => p.category === 'furniture').length})
-          </button>
-          <button
-            onClick={() => setFilter('decor')}
-            className={`px-6 py-2 rounded-lg font-medium transition-colors ${
-              filter === 'decor'
-                ? 'bg-[#2D3436] text-white'
-                : 'bg-[rgb(192_213_206)] text-[#2D3436] hover:bg-[rgb(192_213_206)]'
-            }`}
-          >
-            Декор ({products.filter(p => p.category === 'decor').length})
-          </button>
+        <div className="mb-8 flex gap-4 flex-wrap">
+          {categoryOptions.map((option) => (
+            <button
+              key={option.key}
+              onClick={() => setFilter(option.key)}
+              className={`px-6 py-2 rounded-lg font-medium transition-colors ${
+                filter === option.key
+                  ? 'bg-[#2D3436] text-white'
+                  : 'bg-[rgb(192_213_206)] text-[#2D3436] hover:bg-[rgb(192_213_206)]'
+              }`}
+            >
+              {option.label} ({option.key === 'all' ? products.length : countsByCategory[option.key]})
+            </button>
+          ))}
         </div>
 
         {/* Products Grid */}

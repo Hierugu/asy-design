@@ -4,7 +4,7 @@ export const products: Product[] = [
   {
     id: "1",
     name: "Письменный стол СПМ-404",
-    category: "furniture",
+    category: "tables",
     price: 7340,
     description: "Письменный стол СПМ-404",
     shortDescription: "Письменный стол СПМ-404",
@@ -15,7 +15,7 @@ export const products: Product[] = [
   {
     id: "2",
     name: "Письменный стол СПМ-351",
-    category: "furniture",
+    category: "tables",
     price: 4440,
     description: "Письменный стол СПМ-351",
     shortDescription: "Письменный стол СПМ-351",
@@ -26,7 +26,7 @@ export const products: Product[] = [
   {
     id: "3",
     name: "Стеллаж СТ-402",
-    category: "furniture",
+    category: "shelving",
     price: 4870,
     description: "Стеллаж СТ-402",
     shortDescription: "Стеллаж СТ-402",
@@ -37,7 +37,7 @@ export const products: Product[] = [
   {
     id: "4",
     name: "Стеллаж ШУ-20",
-    category: "furniture",
+    category: "shelving",
     price: 6180,
     description: "Стеллаж ШУ-20",
     shortDescription: "Стеллаж ШУ-20",
@@ -48,7 +48,7 @@ export const products: Product[] = [
   {
     id: "5",
     name: "Кровать с подъемным механизмом Люсия 140",
-    category: "furniture",
+    category: "beds",
     price: 59900,
     description: "Кровать с подъемным механизмом Люсия 140",
     shortDescription: "Кровать с подъемным механизмом Люсия 140",
@@ -59,7 +59,7 @@ export const products: Product[] = [
   {
     id: "6",
     name: "Кровать с подъемным механизмом Марин Velutto 32",
-    category: "furniture",
+    category: "beds",
     price: 42721,
     description: "Кровать с подъемным механизмом Марин Velutto 32",
     shortDescription: "Кровать с подъемным механизмом Марин Velutto 32",
@@ -70,7 +70,7 @@ export const products: Product[] = [
   {
     id: "7",
     name: "Кровать Эвелин Velutto 56",
-    category: "furniture",
+    category: "beds",
     price: 30240,
     description: "Кровать Эвелин Velutto 56",
     shortDescription: "Кровать Эвелин Velutto 56",
@@ -81,7 +81,7 @@ export const products: Product[] = [
   {
     id: "8",
     name: "Кровать с подъемным механизмом Мелисса Персидский жемчуг / орех американский",
-    category: "furniture",
+    category: "beds",
     price: 50738,
     description: "Кровать с подъемным механизмом Мелисса Персидский жемчуг / орех американский",
     shortDescription: "Кровать с подъемным механизмом Мелисса Персидский жемчуг / орех американский",
@@ -92,7 +92,7 @@ export const products: Product[] = [
   {
     id: "9",
     name: "Шкаф распашной Белладжио Дуб белладжио бамбук",
-    category: "furniture",
+    category: "shelving",
     price: 41715,
     description: "Шкаф распашной Белладжио Дуб белладжио бамбук",
     shortDescription: "Шкаф распашной Белладжио Дуб белладжио бамбук",
@@ -103,7 +103,7 @@ export const products: Product[] = [
   {
     id: "10",
     name: "Шкаф Кассия Серый / Дуб вотан",
-    category: "furniture",
+    category: "shelving",
     price: 59230,
     description: "Шкаф Кассия Серый / Дуб вотан",
     shortDescription: "Шкаф Кассия Серый / Дуб вотан",
@@ -114,7 +114,7 @@ export const products: Product[] = [
   {
     id: "11",
     name: "Шкаф-витрина Белладжио Дуб белладжио",
-    category: "furniture",
+    category: "shelving",
     price: 59690,
     description: "Шкаф-витрина Белладжио Дуб белладжио",
     shortDescription: "Шкаф-витрина Белладжио Дуб белладжио",
@@ -125,7 +125,7 @@ export const products: Product[] = [
   {
     id: "12",
     name: "Шкаф четырехстворчатый Шарли Белый",
-    category: "furniture",
+    category: "shelving",
     price: 67760,
     description: "Шкаф четырехстворчатый Шарли Белый",
     shortDescription: "Шкаф четырехстворчатый Шарли Белый",
@@ -136,7 +136,7 @@ export const products: Product[] = [
   {
     id: "13",
     name: "Тумба прикроватная Шарли Белый",
-    category: "furniture",
+    category: "tables",
     price: 12215,
     description: "Тумба прикроватная Шарли Белый",
     shortDescription: "Тумба прикроватная Шарли Белый",
@@ -147,7 +147,7 @@ export const products: Product[] = [
   {
     id: "14",
     name: "Стол письменный Кассия Дуб вотан / эвкалипт",
-    category: "furniture",
+    category: "tables",
     price: 30900,
     description: "Стол письменный Кассия Дуб вотан / эвкалипт",
     shortDescription: "Стол письменный Кассия Дуб вотан / эвкалипт",
@@ -158,7 +158,7 @@ export const products: Product[] = [
   {
     id: "15",
     name: "Туалетный столик Белладжио Дуб белладжио бамбук",
-    category: "furniture",
+    category: "tables",
     price: 39990,
     description: "Туалетный столик Белладжио Дуб белладжио бамбук",
     shortDescription: "Туалетный столик Белладжио Дуб белладжио бамбук",
@@ -169,7 +169,7 @@ export const products: Product[] = [
   {
     id: "16",
     name: "Стол письменный Кассия Серый / Дуб вотан",
-    category: "furniture",
+    category: "tables",
     price: 30905,
     description: "Стол письменный Кассия Серый / Дуб вотан",
     shortDescription: "Стол письменный Кассия Серый / Дуб вотан",
@@ -180,7 +180,7 @@ export const products: Product[] = [
   {
     id: "17",
     name: "Журнальный столик Кассия Дуб вотан / Серый",
-    category: "furniture",
+    category: "tables",
     price: 11575,
     description: "Журнальный столик Кассия Дуб вотан / Серый",
     shortDescription: "Журнальный столик Кассия Дуб вотан / Серый",
@@ -191,7 +191,7 @@ export const products: Product[] = [
   {
     id: "18",
     name: "Стул Винсент Черный / Hush 000",
-    category: "furniture",
+    category: "chairs",
     price: 15390,
     description: "Стул Винсент Черный / Hush 000",
     shortDescription: "Стул Винсент Черный / Hush 000",
@@ -202,7 +202,7 @@ export const products: Product[] = [
   {
     id: "19",
     name: "Стул поворотный Микки 360° Чёрный / California 994",
-    category: "furniture",
+    category: "chairs",
     price: 15960,
     description: "Стул поворотный Микки 360° Чёрный / California 994",
     shortDescription: "Стул поворотный Микки 360° Чёрный / California 994",
@@ -213,7 +213,7 @@ export const products: Product[] = [
   {
     id: "20",
     name: "Пуф Бали Soul 690",
-    category: "furniture",
+    category: "chairs",
     price: 27225,
     description: "Пуф Бали Soul 690",
     shortDescription: "Пуф Бали Soul 690",
@@ -224,7 +224,7 @@ export const products: Product[] = [
   {
     id: "21",
     name: "Пуф Линц Velutto 72",
-    category: "furniture",
+    category: "chairs",
     price: 10310,
     description: "Пуф Линц Velutto 72",
     shortDescription: "Пуф Линц Velutto 72",
@@ -235,7 +235,7 @@ export const products: Product[] = [
   {
     id: "22",
     name: "Зеркало Кассия Дуб вотан",
-    category: "furniture",
+    category: "mirrors",
     price: 15235,
     description: "Зеркало Кассия Дуб вотан",
     shortDescription: "Зеркало Кассия Дуб вотан",
@@ -246,7 +246,7 @@ export const products: Product[] = [
   {
     id: "23",
     name: "Зеркало Белладжио Дуб белладжио",
-    category: "furniture",
+    category: "mirrors",
     price: 6680,
     description: "Зеркало Белладжио Дуб белладжио",
     shortDescription: "Зеркало Белладжио Дуб белладжио",
@@ -257,7 +257,7 @@ export const products: Product[] = [
   {
     id: "24",
     name: "Диван Портер Velutto 64",
-    category: "furniture",
+    category: "sofas",
     price: 64528,
     description: "Диван Портер Velutto 64",
     shortDescription: "Диван Портер Velutto 64",
@@ -268,7 +268,7 @@ export const products: Product[] = [
   {
     id: "25",
     name: "Диван Лиам Lambre 402",
-    category: "furniture",
+    category: "sofas",
     price: 195825,
     description: "Диван Лиам Lambre 402",
     shortDescription: "Диван Лиам Lambre 402",
@@ -279,7 +279,7 @@ export const products: Product[] = [
   {
     id: "26",
     name: "Диван прямой Лилт Bucle White",
-    category: "furniture",
+    category: "sofas",
     price: 84990,
     description: "Диван прямой Лилт Bucle White",
     shortDescription: "Диван прямой Лилт Bucle White",
@@ -290,7 +290,7 @@ export const products: Product[] = [
   {
     id: "27",
     name: "Кушетка Олтен Textile Blue",
-    category: "furniture",
+    category: "sofas",
     price: 35990,
     description: "Кушетка Олтен Textile Blue",
     shortDescription: "Кушетка Олтен Textile Blue",
@@ -301,7 +301,7 @@ export const products: Product[] = [
   {
     id: "28",
     name: "Диван модульный Brera-3 Velour Plum",
-    category: "furniture",
+    category: "sofas",
     price: 116970,
     description: "Диван модульный Brera-3 Velour Plum",
     shortDescription: "Диван модульный Brera-3 Velour Plum",
@@ -312,7 +312,7 @@ export const products: Product[] = [
   {
     id: "29",
     name: "Кровать Табия 90 Soft Terra",
-    category: "furniture",
+    category: "beds",
     price: 54990,
     description: "Кровать Табия 90 Soft Terra",
     shortDescription: "Кровать Табия 90 Soft Terra",
@@ -323,7 +323,7 @@ export const products: Product[] = [
   {
     id: "30",
     name: "Кровать Ева 160 Barhat Latte",
-    category: "furniture",
+    category: "beds",
     price: 50990,
     description: "Кровать Ева 160 Barhat Latte",
     shortDescription: "Кровать Ева 160 Barhat Latte",
@@ -333,7 +333,7 @@ export const products: Product[] = [
   {
     id: "31",
     name: "Журнальный стол Ньюман-2 Galaxy",
-    category: "furniture",
+    category: "tables",
     price: 25990,
     description: "Журнальный стол Ньюман-2 Galaxy",
     shortDescription: "Журнальный стол Ньюман-2 Galaxy",
@@ -344,7 +344,7 @@ export const products: Product[] = [
   {
     id: "32",
     name: "Журнальный стол Тони Puffin",
-    category: "furniture",
+    category: "tables",
     price: 4990,
     description: "Журнальный стол Тони Puffin",
     shortDescription: "Журнальный стол Тони Puffin",
@@ -355,7 +355,7 @@ export const products: Product[] = [
   {
     id: "33",
     name: "Письменный стол Бинкер Terra",
-    category: "furniture",
+    category: "tables",
     price: 39990,
     description: "Письменный стол Бинкер Terra",
     shortDescription: "Письменный стол Бинкер Terra",
@@ -366,7 +366,7 @@ export const products: Product[] = [
   {
     id: "34",
     name: "Кухонный стол Лори-2 Walnut",
-    category: "furniture",
+    category: "tables",
     price: 58990,
     description: "Кухонный стол Лори-2 Walnut",
     shortDescription: "Кухонный стол Лори-2 Walnut",
@@ -377,7 +377,7 @@ export const products: Product[] = [
   {
     id: "35",
     name: "Кухонный стол Тюлип 100 Black",
-    category: "furniture",
+    category: "tables",
     price: 21690,
     description: "Кухонный стол Тюлип 100 Black",
     shortDescription: "Кухонный стол Тюлип 100 Black",
@@ -388,7 +388,7 @@ export const products: Product[] = [
   {
     id: "36",
     name: "Кухонный стол Клифорд Wood",
-    category: "furniture",
+    category: "tables",
     price: 35990,
     description: "Кухонный стол Клифорд Wood",
     shortDescription: "Кухонный стол Клифорд Wood",
@@ -399,7 +399,7 @@ export const products: Product[] = [
   {
     id: "37",
     name: "Распашной шкаф Виклу-3 Greenish Oak",
-    category: "furniture",
+    category: "shelving",
     price: 79990,
     description: "Распашной шкаф Виклу-3 Greenish Oak",
     shortDescription: "Распашной шкаф Виклу-3 Greenish Oak",
@@ -410,7 +410,7 @@ export const products: Product[] = [
   {
     id: "38",
     name: "Шкаф Финни-3 Greenish",
-    category: "furniture",
+    category: "shelving",
     price: 56990,
     description: "Шкаф Финни-3 Greenish",
     shortDescription: "Шкаф Финни-3 Greenish",
@@ -421,7 +421,7 @@ export const products: Product[] = [
   {
     id: "39",
     name: "Распашной шкаф Тайрон-2 Savage",
-    category: "furniture",
+    category: "shelving",
     price: 44990,
     description: "Распашной шкаф Тайрон-2 Savage",
     shortDescription: "Распашной шкаф Тайрон-2 Savage",
@@ -432,7 +432,7 @@ export const products: Product[] = [
   {
     id: "40",
     name: "Стул Киана Velvet Terra",
-    category: "furniture",
+    category: "chairs",
     price: 14990,
     description: "Стул Киана Velvet Terra",
     shortDescription: "Стул Киана Velvet Terra",
@@ -443,7 +443,7 @@ export const products: Product[] = [
   {
     id: "41",
     name: "Стул Дик-1 Textile Olive",
-    category: "furniture",
+    category: "chairs",
     price: 14990,
     description: "Стул Дик-1 Textile Olive",
     shortDescription: "Стул Дик-1 Textile Olive",
@@ -454,7 +454,7 @@ export const products: Product[] = [
   {
     id: "42",
     name: "Стул Вирден Textile Beige",
-    category: "furniture",
+    category: "chairs",
     price: 15990,
     description: "Стул Вирден Textile Beige",
     shortDescription: "Стул Вирден Textile Beige",
@@ -465,7 +465,7 @@ export const products: Product[] = [
   {
     id: "43",
     name: "Ковер Север 200x300",
-    category: "furniture",
+    category: "rugs",
     price: 18990,
     description: "Ковер Север 200x300",
     shortDescription: "Ковер Север 200x300",
@@ -476,7 +476,7 @@ export const products: Product[] = [
   {
     id: "44",
     name: "Ковер Тут Рядом Неожиданно Бежевый",
-    category: "furniture",
+    category: "rugs",
     price: 9518,
     description: "Ковер Тут Рядом Неожиданно Бежевый",
     shortDescription: "Ковер Тут Рядом Неожиданно Бежевый",
@@ -487,7 +487,7 @@ export const products: Product[] = [
   {
     id: "45",
     name: "Ковер Ригос 120x180",
-    category: "furniture",
+    category: "rugs",
     price: 4890,
     description: "Ковер Ригос 120x180",
     shortDescription: "Ковер Ригос 120x180",
@@ -498,7 +498,7 @@ export const products: Product[] = [
   {
     id: "46",
     name: "Ковер Тут Рядом Легко Бежевый 80x150",
-    category: "furniture",
+    category: "rugs",
     price: 5690,
     description: "Ковер Тут Рядом Легко Бежевый 80x150",
     shortDescription: "Ковер Тут Рядом Легко Бежевый 80x150",
@@ -509,7 +509,7 @@ export const products: Product[] = [
   {
     id: "47",
     name: "Торшер Ральф Beige",
-    category: "furniture",
+    category: "lamps",
     price: 13990,
     description: "Торшер Ральф Beige",
     shortDescription: "Торшер Ральф Beige",
@@ -520,7 +520,7 @@ export const products: Product[] = [
   {
     id: "48",
     name: "Торшер Грено-2 Beige",
-    category: "furniture",
+    category: "lamps",
     price: 13990,
     description: "Торшер Грено-2 Beige",
     shortDescription: "Торшер Грено-2 Beige",
@@ -531,7 +531,7 @@ export const products: Product[] = [
   {
     id: "49",
     name: "Настольная лампа Машрум-2 Black",
-    category: "furniture",
+    category: "lamps",
     price: 4990,
     description: "Настольная лампа Машрум-2 Black",
     shortDescription: "Настольная лампа Машрум-2 Black",
@@ -542,7 +542,7 @@ export const products: Product[] = [
   {
     id: "50",
     name: "Настольная лампа Сфера Orange",
-    category: "furniture",
+    category: "lamps",
     price: 5990,
     description: "Настольная лампа Сфера Orange",
     shortDescription: "Настольная лампа Сфера Orange",
@@ -553,7 +553,7 @@ export const products: Product[] = [
   {
     id: "51",
     name: "Настольная лампа Спайк Green",
-    category: "furniture",
+    category: "lamps",
     price: 1390,
     description: "Настольная лампа Спайк Green",
     shortDescription: "Настольная лампа Спайк Green",
@@ -564,7 +564,7 @@ export const products: Product[] = [
   {
     id: "52",
     name: "Настольная лампа Требен Orange",
-    category: "furniture",
+    category: "lamps",
     price: 4990,
     description: "Настольная лампа Требен Orange",
     shortDescription: "Настольная лампа Требен Orange",
@@ -575,7 +575,7 @@ export const products: Product[] = [
   {
     id: "53",
     name: "Люстра Ливсден Brown",
-    category: "furniture",
+    category: "lamps",
     price: 18990,
     description: "Люстра Ливсден Brown",
     shortDescription: "Люстра Ливсден Brown",
@@ -586,7 +586,7 @@ export const products: Product[] = [
   {
     id: "54",
     name: "Подвесной светильник Намсен Black",
-    category: "furniture",
+    category: "lamps",
     price: 10990,
     description: "Подвесной светильник Намсен Black",
     shortDescription: "Подвесной светильник Намсен Black",
@@ -597,7 +597,7 @@ export const products: Product[] = [
   {
     id: "55",
     name: "Люстра Гейза Black",
-    category: "furniture",
+    category: "lamps",
     price: 10990,
     description: "Люстра Гейза Black",
     shortDescription: "Люстра Гейза Black",
@@ -608,7 +608,7 @@ export const products: Product[] = [
   {
     id: "56",
     name: "Зеркало настенное Эйдис Olive",
-    category: "furniture",
+    category: "mirrors",
     price: 14990,
     description: "Зеркало настенное Эйдис Olive",
     shortDescription: "Зеркало настенное Эйдис Olive",
@@ -619,7 +619,7 @@ export const products: Product[] = [
   {
     id: "57",
     name: "Зеркало настенное Магни Burgundy",
-    category: "furniture",
+    category: "mirrors",
     price: 9990,
     description: "Зеркало настенное Магни Burgundy",
     shortDescription: "Зеркало настенное Магни Burgundy",
@@ -630,7 +630,7 @@ export const products: Product[] = [
   {
     id: "58",
     name: "Зеркало напольное Андерс Wood",
-    category: "furniture",
+    category: "mirrors",
     price: 16990,
     description: "Зеркало напольное Андерс Wood",
     shortDescription: "Зеркало напольное Андерс Wood",
@@ -641,7 +641,7 @@ export const products: Product[] = [
   {
     id: "59",
     name: "eburet",
-    category: "furniture",
+    category: "tables",
     price: 30400,
     description: "eburet",
     shortDescription: "eburet",
@@ -652,7 +652,7 @@ export const products: Product[] = [
   {
     id: "60",
     name: "STYUL",
-    category: "furniture",
+    category: "chairs",
     price: 44000,
     description: "STYUL",
     shortDescription: "STYUL",
@@ -663,7 +663,7 @@ export const products: Product[] = [
   {
     id: "61",
     name: "VALERA +",
-    category: "furniture",
+    category: "chairs",
     price: 24000,
     description: "VALERA +",
     shortDescription: "VALERA +",
@@ -674,7 +674,7 @@ export const products: Product[] = [
   {
     id: "62",
     name: "NYAMBA",
-    category: "furniture",
+    category: "chairs",
     price: 15200,
     description: "NYAMBA",
     shortDescription: "NYAMBA",
@@ -685,7 +685,7 @@ export const products: Product[] = [
   {
     id: "63",
     name: "BATON",
-    category: "furniture",
+    category: "chairs",
     price: 75200,
     description: "BATON",
     shortDescription: "BATON",
@@ -696,7 +696,7 @@ export const products: Product[] = [
   {
     id: "64",
     name: "Табурет/тумба",
-    category: "furniture",
+    category: "chairs",
     price: 22000,
     description: "Табурет/тумба",
     shortDescription: "Табурет/тумба",
@@ -707,7 +707,7 @@ export const products: Product[] = [
   {
     id: "65",
     name: "Тумба БОР",
-    category: "furniture",
+    category: "tables",
     price: 42000,
     description: "Тумба БОР",
     shortDescription: "Тумба БОР",
@@ -718,7 +718,7 @@ export const products: Product[] = [
   {
     id: "66",
     name: "Стул МЕСТО",
-    category: "furniture",
+    category: "chairs",
     price: 25000,
     description: "Стул МЕСТО",
     shortDescription: "Стул МЕСТО",
@@ -729,7 +729,7 @@ export const products: Product[] = [
   {
     id: "67",
     name: "Скамья МЕСТО",
-    category: "furniture",
+    category: "chairs",
     price: 39000,
     description: "Скамья МЕСТО",
     shortDescription: "Скамья МЕСТО",
@@ -740,7 +740,7 @@ export const products: Product[] = [
   {
     id: "68",
     name: "Кровать ФОРМА",
-    category: "furniture",
+    category: "beds",
     price: 127000,
     description: "Кровать ФОРМА",
     shortDescription: "Кровать ФОРМА",
@@ -751,7 +751,7 @@ export const products: Product[] = [
   {
     id: "69",
     name: "Зеркало АРКИ",
-    category: "furniture",
+    category: "mirrors",
     price: 5700,
     description: "Зеркало АРКИ",
     shortDescription: "Зеркало АРКИ",

@@ -23,6 +23,17 @@ export default function ProductModal({ product, isOpen, onClose }: ProductModalP
 
   if (!isOpen || !product) return null;
 
+  const categoryLabel: Record<Product['category'], string> = {
+    tables: 'Столы',
+    beds: 'Кровати',
+    shelving: 'Стеллажи',
+    chairs: 'Стулья',
+    mirrors: 'Зеркала',
+    sofas: 'Диваны',
+    rugs: 'Ковры',
+    lamps: 'Лампы',
+  };
+
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto">
       <div className="flex min-h-screen items-center justify-center p-4">
@@ -59,7 +70,7 @@ export default function ProductModal({ product, isOpen, onClose }: ProductModalP
               <div>
                 <div className="mb-4">
                   <span className="inline-block bg-[#C9DAD2] text-[#2D3436] px-3 py-1 rounded-full text-sm font-medium mb-2">
-                    {product.category === 'furniture' ? 'Мебель' : 'Декор'}
+                    {categoryLabel[product.category] ?? product.category}
                   </span>
                   {product.inStock ? (
                     <span className="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium ml-2">

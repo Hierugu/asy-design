@@ -13,6 +13,17 @@ export default function ProductCard({ product, onClick }: ProductCardProps) {
   const [imageError, setImageError] = useState(false);
   const hasImage = product.image && !imageError;
 
+  const categoryLabel: Record<Product['category'], string> = {
+    tables: 'Столы',
+    beds: 'Кровати',
+    shelving: 'Стеллажи',
+    chairs: 'Стулья',
+    mirrors: 'Зеркала',
+    sofas: 'Диваны',
+    rugs: 'Ковры',
+    lamps: 'Лампы',
+  };
+
   return (
     <div
       onClick={() => onClick(product)}
@@ -50,7 +61,7 @@ export default function ProductCard({ product, onClick }: ProductCardProps) {
         <div className="flex justify-between items-start mb-2">
           <h3 className="text-lg font-semibold text-[#2D3436]">{product.name}</h3>
           <span className="text-sm text-[#636E72] bg-[#C9DAD2] px-2 py-1 rounded">
-            {product.category === 'furniture' ? 'Мебель' : 'Декор'}
+            {categoryLabel[product.category] ?? product.category}
           </span>
         </div>
         <p className="text-[#636E72] text-sm mb-4 line-clamp-2 leading-relaxed">

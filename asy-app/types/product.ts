@@ -1,7 +1,15 @@
 export interface Product {
   id: string;
   name: string;
-  category: 'furniture' | 'decor';
+  category:
+    | 'tables'
+    | 'beds'
+    | 'shelving'
+    | 'chairs'
+    | 'mirrors'
+    | 'sofas'
+    | 'rugs'
+    | 'lamps';
   price: number;
   description: string;
   shortDescription: string;
