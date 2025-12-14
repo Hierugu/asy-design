@@ -2,7 +2,8 @@
 
 :root {
   /* Основные цвета */
-  --background: #C9DAD2;
+  --background: rgb(178 199 192);
+  --background-nav: rgb(192 213 206);
   --background-presentation: #D8A318;
   --foreground: #2D3436;
   --foreground-secondary: #636E72;

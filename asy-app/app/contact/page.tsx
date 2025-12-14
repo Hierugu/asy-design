@@ -1,6 +1,6 @@
 export default function ContactPage() {
   return (
-    <main className="min-h-screen bg-[#C9DAD2] py-12">
+    <main className="min-h-screen bg-[rgb(178_199_192)] py-12">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-semibold text-[#2D3436] mb-8">Контакты</h1>
         

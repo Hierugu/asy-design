@@ -26,7 +26,7 @@ export default function CatalogPage() {
     : products.filter(p => p.category === filter);
 
   return (
-    <main className="min-h-screen bg-[#C9DAD2] py-12">
+    <main className="min-h-screen bg-[rgb(178_199_192)] py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-8">
           <h1 className="text-4xl font-semibold text-[#2D3436] mb-4">Каталог</h1>
