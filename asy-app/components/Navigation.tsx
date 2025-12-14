@@ -18,7 +18,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-gray-900">
+            <Link href="/" className="text-2xl font-semibold text-[#2D3436]">
               ASY Design
             </Link>
           </div>
@@ -29,8 +29,8 @@ export default function Navigation() {
                 href={item.href}
                 className={`inline-flex items-center px-3 py-2 text-sm font-medium transition-colors ${
                   pathname === item.href
-                    ? 'text-blue-600 border-b-2 border-blue-600'
-                    : 'text-gray-700 hover:text-blue-600 hover:border-b-2 hover:border-blue-400'
+                    ? 'text-[#D8A318] border-b-2 border-[#D8A318]'
+                    : 'text-[#636E72] hover:text-[#2D3436] hover:border-b-2 hover:border-[#D8A318]'
                 }`}
               >
                 {item.name}

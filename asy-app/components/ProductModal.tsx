@@ -37,7 +37,7 @@ export default function ProductModal({ product, isOpen, onClose }: ProductModalP
           {/* Close button */}
           <button
             onClick={onClose}
-            className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 z-10"
+            className="absolute top-4 right-4 text-[#636E72] hover:text-[#2D3436] z-10"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -58,31 +58,31 @@ export default function ProductModal({ product, isOpen, onClose }: ProductModalP
               {/* Details */}
               <div>
                 <div className="mb-4">
-                  <span className="inline-block bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold mb-2">
+                  <span className="inline-block bg-[#C9DAD2] text-[#2D3436] px-3 py-1 rounded-full text-sm font-medium mb-2">
                     {product.category === 'furniture' ? 'Мебель' : 'Декор'}
                   </span>
                   {product.inStock ? (
-                    <span className="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold ml-2">
+                    <span className="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium ml-2">
                       В наличии
                     </span>
                   ) : (
-                    <span className="inline-block bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-semibold ml-2">
+                    <span className="inline-block bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium ml-2">
                       Нет в наличии
                     </span>
                   )}
                 </div>
 
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">{product.name}</h2>
+                <h2 className="text-3xl font-semibold text-[#2D3436] mb-4">{product.name}</h2>
 
-                <p className="text-gray-700 mb-6 leading-relaxed">{product.description}</p>
+                <p className="text-[#636E72] mb-6 leading-relaxed">{product.description}</p>
 
                 <div className="mb-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3">Характеристики</h3>
+                  <h3 className="text-xl font-semibold text-[#2D3436] mb-3">Характеристики</h3>
                   
                   {product.dimensions && (
                     <div className="mb-4">
-                      <h4 className="font-medium text-gray-700 mb-2">Размеры:</h4>
-                      <ul className="text-gray-600 space-y-1">
+                      <h4 className="font-medium text-[#2D3436] mb-2">Размеры:</h4>
+                      <ul className="text-[#636E72] space-y-1">
                         <li>Ширина: {product.dimensions.width} см</li>
                         <li>Высота: {product.dimensions.height} см</li>
                         {product.dimensions.depth && (
@@ -94,25 +94,25 @@ export default function ProductModal({ product, isOpen, onClose }: ProductModalP
 
                   {product.materials && product.materials.length > 0 && (
                     <div className="mb-4">
-                      <h4 className="font-medium text-gray-700 mb-2">Материалы:</h4>
-                      <p className="text-gray-600">{product.materials.join(', ')}</p>
+                      <h4 className="font-medium text-[#2D3436] mb-2">Материалы:</h4>
+                      <p className="text-[#636E72]">{product.materials.join(', ')}</p>
                     </div>
                   )}
                 </div>
 
-                <div className="border-t pt-6">
+                <div className="border-t border-gray-200 pt-6">
                   <div className="flex items-center justify-between mb-4">
-                    <span className="text-3xl font-bold text-blue-600">
+                    <span className="text-3xl font-semibold text-[#D8A318]">
                       {product.price.toLocaleString('ru-RU')} ₽
                     </span>
                   </div>
                   
                   <button
                     disabled={!product.inStock}
-                    className={`w-full py-3 rounded-lg font-semibold text-lg transition-colors ${
+                    className={`w-full py-3 rounded-lg font-medium text-lg transition-colors ${
                       product.inStock
-                        ? 'bg-blue-600 text-white hover:bg-blue-700'
-                        : 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                        ? 'bg-[#2D3436] text-white hover:bg-[#1a1d1f]'
+                        : 'bg-gray-300 text-[#636E72] cursor-not-allowed'
                     }`}
                   >
                     {product.inStock ? 'Добавить в корзину' : 'Нет в наличии'}

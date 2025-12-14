@@ -21,31 +21,31 @@ export default function ProductCard({ product, onClick }: ProductCardProps) {
           </svg>
         </div>
         {!product.inStock && (
-          <div className="absolute top-2 right-2 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+          <div className="absolute top-2 right-2 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-medium">
             Нет в наличии
           </div>
         )}
         {product.inStock && (
-          <div className="absolute top-2 right-2 bg-green-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+          <div className="absolute top-2 right-2 bg-[#D8A318] text-[#2D3436] px-3 py-1 rounded-full text-sm font-medium">
             В наличии
           </div>
         )}
       </div>
       <div className="p-4">
         <div className="flex justify-between items-start mb-2">
-          <h3 className="text-lg font-semibold text-gray-900">{product.name}</h3>
-          <span className="text-sm text-gray-500 bg-gray-100 px-2 py-1 rounded">
+          <h3 className="text-lg font-semibold text-[#2D3436]">{product.name}</h3>
+          <span className="text-sm text-[#636E72] bg-[#C9DAD2] px-2 py-1 rounded">
             {product.category === 'furniture' ? 'Мебель' : 'Декор'}
           </span>
         </div>
-        <p className="text-gray-600 text-sm mb-4 line-clamp-2">
+        <p className="text-[#636E72] text-sm mb-4 line-clamp-2 leading-relaxed">
           {product.shortDescription}
         </p>
         <div className="flex justify-between items-center">
-          <span className="text-2xl font-bold text-blue-600">
+          <span className="text-2xl font-semibold text-[#D8A318]">
             {product.price.toLocaleString('ru-RU')} ₽
           </span>
-          <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium">
+          <button className="bg-[#2D3436] text-white px-4 py-2 rounded-lg hover:bg-[#1a1d1f] transition-colors text-sm font-medium">
             Подробнее
           </button>
         </div>
