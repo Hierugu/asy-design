@@ -8,7 +8,7 @@ export const products: Product[] = [
     price: 7340,
     description: "Письменный стол СПМ-404",
     shortDescription: "Письменный стол СПМ-404",
-    image: "/goods/product_1.png",
+    image: "/products/image1.jpg",
     inStock: true,
     manufacturerUrl: "https://www.sokol-mebel.ru/category/mebel-dlya-doma/stol/pismennyj-stol/goods-pismennyi_stol_spm_404/"
   },
@@ -19,7 +19,7 @@ export const products: Product[] = [
     price: 4440,
     description: "Письменный стол СПМ-351",
     shortDescription: "Письменный стол СПМ-351",
-    image: "/goods/product_2.png",
+    image: "/products/image2.jpg",
     inStock: true,
     manufacturerUrl: "https://www.sokol-mebel.ru/category/mebel-dlya-doma/stol/pismennyj-stol/goods-pismennyi_stol_spm_351/"
   },
@@ -30,7 +30,7 @@ export const products: Product[] = [
     price: 4870,
     description: "Стеллаж СТ-402",
     shortDescription: "Стеллаж СТ-402",
-    image: "/goods/product_3.png",
+    image: "/products/image3.jpg",
     inStock: true,
     manufacturerUrl: "https://www.sokol-mebel.ru/category/mebel-dlya-doma/stellazhi/goods-stellaz_st_402/"
   },
@@ -41,7 +41,7 @@ export const products: Product[] = [
     price: 6180,
     description: "Стеллаж ШУ-20",
     shortDescription: "Стеллаж ШУ-20",
-    image: "/goods/product_4.png",
+    image: "/products/image4.jpg",
     inStock: true,
     manufacturerUrl: "https://www.sokol-mebel.ru/category/mebel-dlya-doma/stellazhi/goods-stellaj_shu_20/"
   },
@@ -52,7 +52,7 @@ export const products: Product[] = [
     price: 59900,
     description: "Кровать с подъемным механизмом Люсия 140",
     shortDescription: "Кровать с подъемным механизмом Люсия 140",
-    image: "/goods/product_5.png",
+    image: "/products/image5.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6395972/krovat-s-podemnym-mekhanizmom-lyusiya-140-matras-korbi-velutto-04/"
   },
@@ -63,7 +63,7 @@ export const products: Product[] = [
     price: 42721,
     description: "Кровать с подъемным механизмом Марин Velutto 32",
     shortDescription: "Кровать с подъемным механизмом Марин Velutto 32",
-    image: "/goods/product_6.png",
+    image: "/products/image6.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6394538/krovat-s-podemnym-mekhanizmom-marin-32/krovat-s-podemnym-mekhanizmom-marin-140-32/"
   },
@@ -74,7 +74,7 @@ export const products: Product[] = [
     price: 30240,
     description: "Кровать Эвелин Velutto 56",
     shortDescription: "Кровать Эвелин Velutto 56",
-    image: "/goods/product_7.png",
+    image: "/products/image7.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6391632/krovat-evelin-velutto-56/krovat-evelin-140x200-velutto-56/"
   },
@@ -85,7 +85,7 @@ export const products: Product[] = [
     price: 50738,
     description: "Кровать с подъемным механизмом Мелисса Персидский жемчуг / орех американский",
     shortDescription: "Кровать с подъемным механизмом Мелисса Персидский жемчуг / орех американский",
-    image: "/goods/product_8.png",
+    image: "/products/image8.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6394181/krovat-s-podemnym-mekhanizmom-melissa-zhemchug/krovat-s-podemnym-mekhanizmom-melissa-140kh2008434/"
   },
@@ -96,7 +96,7 @@ export const products: Product[] = [
     price: 41715,
     description: "Шкаф распашной Белладжио Дуб белладжио бамбук",
     shortDescription: "Шкаф распашной Белладжио Дуб белладжио бамбук",
-    image: "/goods/product_9.png",
+    image: "/products/image9.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6202754/shkaf-belladzhio-3457080/"
   },
@@ -107,7 +107,7 @@ export const products: Product[] = [
     price: 59230,
     description: "Шкаф Кассия Серый / Дуб вотан",
     shortDescription: "Шкаф Кассия Серый / Дуб вотан",
-    image: "/goods/product_10.png",
+    image: "/products/image10.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6251033/shkaf-kassiya-5756d-seryy/"
   },
@@ -118,7 +118,7 @@ export const products: Product[] = [
     price: 59690,
     description: "Шкаф-витрина Белладжио Дуб белладжио",
     shortDescription: "Шкаф-витрина Белладжио Дуб белладжио",
-    image: "/goods/product_11.png",
+    image: "/products/image11.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6203010/shkaf-belladzhio-4857067/"
   },
@@ -129,7 +129,7 @@ export const products: Product[] = [
     price: 67760,
     description: "Шкаф четырехстворчатый Шарли Белый",
     shortDescription: "Шкаф четырехстворчатый Шарли Белый",
-    image: "/goods/product_12.png",
+    image: "/products/image12.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6236715/shkaf-sharli-chetyrekhstvorchatyy/"
   },
@@ -140,7 +140,7 @@ export const products: Product[] = [
     price: 12215,
     description: "Тумба прикроватная Шарли Белый",
     shortDescription: "Тумба прикроватная Шарли Белый",
-    image: "/goods/product_13.png",
+    image: "/products/image13.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6236694/tumba-prikrovatnaya-s-2-yashkami-sharli/"
   },
@@ -151,7 +151,7 @@ export const products: Product[] = [
     price: 30900,
     description: "Стол письменный Кассия Дуб вотан / эвкалипт",
     shortDescription: "Стол письменный Кассия Дуб вотан / эвкалипт",
-    image: "/goods/product_14.png",
+    image: "/products/image14.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6391401/stol-pismennyy-kassiya-evkalipt-67/"
   },
@@ -162,7 +162,7 @@ export const products: Product[] = [
     price: 39990,
     description: "Туалетный столик Белладжио Дуб белладжио бамбук",
     shortDescription: "Туалетный столик Белладжио Дуб белладжио бамбук",
-    image: "/goods/product_15.png",
+    image: "/products/image15.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6209161/stol-belladzhio-1830526/"
   },
@@ -173,7 +173,7 @@ export const products: Product[] = [
     price: 30905,
     description: "Стол письменный Кассия Серый / Дуб вотан",
     shortDescription: "Стол письменный Кассия Серый / Дуб вотан",
-    image: "/goods/product_16.png",
+    image: "/products/image16.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6267699/stol-pismennyy-kassiya67/"
   },
@@ -184,7 +184,7 @@ export const products: Product[] = [
     price: 11575,
     description: "Журнальный столик Кассия Дуб вотан / Серый",
     shortDescription: "Журнальный столик Кассия Дуб вотан / Серый",
-    image: "/goods/product_17.png",
+    image: "/products/image17.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6224242/zhurnalnyy-stolik-kassiya-3475-grey/"
   },
@@ -195,7 +195,7 @@ export const products: Product[] = [
     price: 15390,
     description: "Стул Винсент Черный / Hush 000",
     shortDescription: "Стул Винсент Черный / Hush 000",
-    image: "/goods/product_18.png",
+    image: "/products/image18.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6394013/stul-vinsent-hush000/"
   },
@@ -206,7 +206,7 @@ export const products: Product[] = [
     price: 15960,
     description: "Стул поворотный Микки 360° Чёрный / California 994",
     shortDescription: "Стул поворотный Микки 360° Чёрный / California 994",
-    image: "/goods/product_19.png",
+    image: "/products/image19.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6379158/stul-povorotnyy-mikki-360-california994/"
   },
@@ -217,7 +217,7 @@ export const products: Product[] = [
     price: 27225,
     description: "Пуф Бали Soul 690",
     shortDescription: "Пуф Бали Soul 690",
-    image: "/goods/product_20.png",
+    image: "/products/image20.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6390352/puf-bali-soul-690/"
   },
@@ -228,7 +228,7 @@ export const products: Product[] = [
     price: 10310,
     description: "Пуф Линц Velutto 72",
     shortDescription: "Пуф Линц Velutto 72",
-    image: "/goods/product_21.png",
+    image: "/products/image21.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6350403/puf-lints-72/"
   },
@@ -239,7 +239,7 @@ export const products: Product[] = [
     price: 15235,
     description: "Зеркало Кассия Дуб вотан",
     shortDescription: "Зеркало Кассия Дуб вотан",
-    image: "/goods/product_22.png",
+    image: "/products/image22.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6267690/zerkalo-kassiya272/"
   },
@@ -250,7 +250,7 @@ export const products: Product[] = [
     price: 6680,
     description: "Зеркало Белладжио Дуб белладжио",
     shortDescription: "Зеркало Белладжио Дуб белладжио",
-    image: "/goods/product_23.png",
+    image: "/products/image23.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6209359/zerkalo-belladzhio-3448772/"
   },
@@ -261,7 +261,7 @@ export const products: Product[] = [
     price: 64528,
     description: "Диван Портер Velutto 64",
     shortDescription: "Диван Портер Velutto 64",
-    image: "/goods/product_24.png",
+    image: "/products/image24.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6392990/divan-porter-64/"
   },
@@ -272,7 +272,7 @@ export const products: Product[] = [
     price: 195825,
     description: "Диван Лиам Lambre 402",
     shortDescription: "Диван Лиам Lambre 402",
-    image: "/goods/product_25.png",
+    image: "/products/image25.jpg",
     inStock: true,
     manufacturerUrl: "https://lazurit.com/product/6390768/divan-liam-lambre402/"
   },
@@ -283,7 +283,7 @@ export const products: Product[] = [
     price: 84990,
     description: "Диван прямой Лилт Bucle White",
     shortDescription: "Диван прямой Лилт Bucle White",
-    image: "/goods/product_26.png",
+    image: "/products/image26.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/divan-lilt-bucle-white"
   },
@@ -294,7 +294,7 @@ export const products: Product[] = [
     price: 35990,
     description: "Кушетка Олтен Textile Blue",
     shortDescription: "Кушетка Олтен Textile Blue",
-    image: "/goods/product_27.png",
+    image: "/products/image27.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/kushetka-olten-textile-blue-old-13-05-2025"
   },
@@ -305,7 +305,7 @@ export const products: Product[] = [
     price: 116970,
     description: "Диван модульный Brera-3 Velour Plum",
     shortDescription: "Диван модульный Brera-3 Velour Plum",
-    image: "/goods/product_28.png",
+    image: "/products/image28.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/modulnyj-divan-brera-3-velour-plum"
   },
@@ -316,7 +316,7 @@ export const products: Product[] = [
     price: 54990,
     description: "Кровать Табия 90 Soft Terra",
     shortDescription: "Кровать Табия 90 Soft Terra",
-    image: "/goods/product_29.png",
+    image: "/products/image29.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/krovat-tabiya-90-soft-terra"
   },
@@ -327,7 +327,7 @@ export const products: Product[] = [
     price: 50990,
     description: "Кровать Ева 160 Barhat Latte",
     shortDescription: "Кровать Ева 160 Barhat Latte",
-    image: "/goods/product_30.png",
+    image: "/products/image30.jpg",
     inStock: true
   },
   {
@@ -337,7 +337,7 @@ export const products: Product[] = [
     price: 25990,
     description: "Журнальный стол Ньюман-2 Galaxy",
     shortDescription: "Журнальный стол Ньюман-2 Galaxy",
-    image: "/goods/product_31.png",
+    image: "/products/image31.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/jurnalnyj-stol-nyuman-2-galaxy"
   },
@@ -348,7 +348,7 @@ export const products: Product[] = [
     price: 4990,
     description: "Журнальный стол Тони Puffin",
     shortDescription: "Журнальный стол Тони Puffin",
-    image: "/goods/product_32.png",
+    image: "/products/image32.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/jurnalnyj-stol-toni-puffin"
   },
@@ -359,7 +359,7 @@ export const products: Product[] = [
     price: 39990,
     description: "Письменный стол Бинкер Terra",
     shortDescription: "Письменный стол Бинкер Terra",
-    image: "/goods/product_33.png",
+    image: "/products/image33.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/pismennyj-stol-binker-terra"
   },
@@ -370,7 +370,7 @@ export const products: Product[] = [
     price: 58990,
     description: "Кухонный стол Лори-2 Walnut",
     shortDescription: "Кухонный стол Лори-2 Walnut",
-    image: "/goods/product_34.png",
+    image: "/products/image34.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/kuhonnyj-stol-lori-2-walnut"
   },
@@ -381,7 +381,7 @@ export const products: Product[] = [
     price: 21690,
     description: "Кухонный стол Тюлип 100 Black",
     shortDescription: "Кухонный стол Тюлип 100 Black",
-    image: "/goods/product_35.png",
+    image: "/products/image35.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/kuhonnyj-stol-tyulip-100-black"
   },
@@ -392,7 +392,7 @@ export const products: Product[] = [
     price: 35990,
     description: "Кухонный стол Клифорд Wood",
     shortDescription: "Кухонный стол Клифорд Wood",
-    image: "/goods/product_36.png",
+    image: "/products/image36.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/kuhonnyj-stol-kliford-wood"
   },
@@ -403,7 +403,7 @@ export const products: Product[] = [
     price: 79990,
     description: "Распашной шкаф Виклу-3 Greenish Oak",
     shortDescription: "Распашной шкаф Виклу-3 Greenish Oak",
-    image: "/goods/product_37.png",
+    image: "/products/image37.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/raspashnoj-shkaf-viklu-3-greenish-oak"
   },
@@ -414,7 +414,7 @@ export const products: Product[] = [
     price: 56990,
     description: "Шкаф Финни-3 Greenish",
     shortDescription: "Шкаф Финни-3 Greenish",
-    image: "/goods/product_38.png",
+    image: "/products/image38.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/shkaf-detskij-finni-3-greenish"
   },
@@ -425,7 +425,7 @@ export const products: Product[] = [
     price: 44990,
     description: "Распашной шкаф Тайрон-2 Savage",
     shortDescription: "Распашной шкаф Тайрон-2 Savage",
-    image: "/goods/product_39.png",
+    image: "/products/image39.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/raspashnoj-shkaf-tajron-2-savage"
   },
@@ -436,7 +436,7 @@ export const products: Product[] = [
     price: 14990,
     description: "Стул Киана Velvet Terra",
     shortDescription: "Стул Киана Velvet Terra",
-    image: "/goods/product_40.png",
+    image: "/products/image40.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/stul-kiana-velvet-terra"
   },
@@ -447,7 +447,7 @@ export const products: Product[] = [
     price: 14990,
     description: "Стул Дик-1 Textile Olive",
     shortDescription: "Стул Дик-1 Textile Olive",
-    image: "/goods/product_41.png",
+    image: "/products/image41.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/stul-dik-1-textile-olive"
   },
@@ -458,7 +458,7 @@ export const products: Product[] = [
     price: 15990,
     description: "Стул Вирден Textile Beige",
     shortDescription: "Стул Вирден Textile Beige",
-    image: "/goods/product_42.png",
+    image: "/products/image42.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/stul-virden-textile-beige"
   },
@@ -469,7 +469,7 @@ export const products: Product[] = [
     price: 18990,
     description: "Ковер Север 200x300",
     shortDescription: "Ковер Север 200x300",
-    image: "/goods/product_43.png",
+    image: "/products/image43.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/kover-sever-200x300"
   },
@@ -480,7 +480,7 @@ export const products: Product[] = [
     price: 9518,
     description: "Ковер Тут Рядом Неожиданно Бежевый",
     shortDescription: "Ковер Тут Рядом Неожиданно Бежевый",
-    image: "/goods/product_44.png",
+    image: "/products/image44.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/kover-tut-ryadom-neojidanno-bejevyj-160x230"
   },
@@ -491,7 +491,7 @@ export const products: Product[] = [
     price: 4890,
     description: "Ковер Ригос 120x180",
     shortDescription: "Ковер Ригос 120x180",
-    image: "/goods/product_45.png",
+    image: "/products/image45.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/kover-rigos-120x180"
   },
@@ -502,7 +502,7 @@ export const products: Product[] = [
     price: 5690,
     description: "Ковер Тут Рядом Легко Бежевый 80x150",
     shortDescription: "Ковер Тут Рядом Легко Бежевый 80x150",
-    image: "/goods/product_46.png",
+    image: "/products/image46.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/kover-tut-ryadom-legko-bejevyj-80x150"
   },
@@ -513,7 +513,7 @@ export const products: Product[] = [
     price: 13990,
     description: "Торшер Ральф Beige",
     shortDescription: "Торшер Ральф Beige",
-    image: "/goods/product_47.png",
+    image: "/products/image47.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/torsher-ralf-beige"
   },
@@ -524,7 +524,7 @@ export const products: Product[] = [
     price: 13990,
     description: "Торшер Грено-2 Beige",
     shortDescription: "Торшер Грено-2 Beige",
-    image: "/goods/product_48.png",
+    image: "/products/image48.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/torsher-greno-2-beige"
   },
@@ -535,7 +535,7 @@ export const products: Product[] = [
     price: 4990,
     description: "Настольная лампа Машрум-2 Black",
     shortDescription: "Настольная лампа Машрум-2 Black",
-    image: "/goods/product_49.png",
+    image: "/products/image49.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/nastolnaya-lampa-mashrum-2-black"
   },
@@ -546,7 +546,7 @@ export const products: Product[] = [
     price: 5990,
     description: "Настольная лампа Сфера Orange",
     shortDescription: "Настольная лампа Сфера Orange",
-    image: "/goods/product_50.png",
+    image: "/products/image50.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/nastolnaya-lampa-sfera-orange"
   },
@@ -557,7 +557,7 @@ export const products: Product[] = [
     price: 1390,
     description: "Настольная лампа Спайк Green",
     shortDescription: "Настольная лампа Спайк Green",
-    image: "/goods/product_51.png",
+    image: "/products/image51.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/nastolnaya-lampa-spajk-green"
   },
@@ -568,7 +568,7 @@ export const products: Product[] = [
     price: 4990,
     description: "Настольная лампа Требен Orange",
     shortDescription: "Настольная лампа Требен Orange",
-    image: "/goods/product_52.png",
+    image: "/products/image52.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/nastolnaya-lampa-treben-orange"
   },
@@ -579,7 +579,7 @@ export const products: Product[] = [
     price: 18990,
     description: "Люстра Ливсден Brown",
     shortDescription: "Люстра Ливсден Brown",
-    image: "/goods/product_53.png",
+    image: "/products/image53.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/lyustra-livsden-brown"
   },
@@ -590,7 +590,7 @@ export const products: Product[] = [
     price: 10990,
     description: "Подвесной светильник Намсен Black",
     shortDescription: "Подвесной светильник Намсен Black",
-    image: "/goods/product_54.png",
+    image: "/products/image54.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/podvesnoj-svetilnik-namsen-black"
   },
@@ -601,7 +601,7 @@ export const products: Product[] = [
     price: 10990,
     description: "Люстра Гейза Black",
     shortDescription: "Люстра Гейза Black",
-    image: "/goods/product_55.png",
+    image: "/products/image55.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/lyustra-gejza-black"
   },
@@ -612,7 +612,7 @@ export const products: Product[] = [
     price: 14990,
     description: "Зеркало настенное Эйдис Olive",
     shortDescription: "Зеркало настенное Эйдис Olive",
-    image: "/goods/product_56.png",
+    image: "/products/image56.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/zerkalo-nastennoe-ejdis-olive"
   },
@@ -623,7 +623,7 @@ export const products: Product[] = [
     price: 9990,
     description: "Зеркало настенное Магни Burgundy",
     shortDescription: "Зеркало настенное Магни Burgundy",
-    image: "/goods/product_57.png",
+    image: "/products/image57.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/zerkalo-nastennoe-magni-burgundy"
   },
@@ -634,7 +634,7 @@ export const products: Product[] = [
     price: 16990,
     description: "Зеркало напольное Андерс Wood",
     shortDescription: "Зеркало напольное Андерс Wood",
-    image: "/goods/product_58.png",
+    image: "/products/image58.jpg",
     inStock: true,
     manufacturerUrl: "https://www.divan.ru/product/zerkalo-napolnoe-anders-wood"
   },
@@ -645,7 +645,7 @@ export const products: Product[] = [
     price: 30400,
     description: "eburet",
     shortDescription: "eburet",
-    image: "/goods/product_59.png",
+    image: "/products/image59.jpg",
     inStock: true,
     manufacturerUrl: "https://eburet.com/shop/tproduct/508717154-369456578611-eburet"
   },
@@ -656,7 +656,7 @@ export const products: Product[] = [
     price: 44000,
     description: "STYUL",
     shortDescription: "STYUL",
-    image: "/goods/product_60.png",
+    image: "/products/image60.jpg",
     inStock: true,
     manufacturerUrl: "https://eburet.com/shop/tproduct/508717154-898525659181-styul"
   },
@@ -667,7 +667,7 @@ export const products: Product[] = [
     price: 24000,
     description: "VALERA +",
     shortDescription: "VALERA +",
-    image: "/goods/product_61.png",
+    image: "/products/image61.jpg",
     inStock: true,
     manufacturerUrl: "https://eburet.com/shop/tproduct/508717154-437587289961-valera-"
   },
@@ -678,7 +678,7 @@ export const products: Product[] = [
     price: 15200,
     description: "NYAMBA",
     shortDescription: "NYAMBA",
-    image: "/goods/product_62.png",
+    image: "/products/image62.jpg",
     inStock: true,
     manufacturerUrl: "https://eburet.com/shop/tproduct/508717154-439113914451-nyamba"
   },
@@ -689,7 +689,7 @@ export const products: Product[] = [
     price: 75200,
     description: "BATON",
     shortDescription: "BATON",
-    image: "/goods/product_63.png",
+    image: "/products/image63.jpg",
     inStock: true,
     manufacturerUrl: "https://eburet.com/shop/tproduct/508717154-141756127541-baton"
   },
@@ -700,7 +700,7 @@ export const products: Product[] = [
     price: 22000,
     description: "Табурет/тумба",
     shortDescription: "Табурет/тумба",
-    image: "/goods/product_64.png",
+    image: "/products/image64.jpg",
     inStock: true,
     manufacturerUrl: "https://valkeda.ru/catalog/tproduct/586136479-348681897342-taburettumba"
   },
@@ -711,7 +711,7 @@ export const products: Product[] = [
     price: 42000,
     description: "Тумба БОР",
     shortDescription: "Тумба БОР",
-    image: "/goods/product_65.png",
+    image: "/products/image65.jpg",
     inStock: true,
     manufacturerUrl: "https://valkeda.ru/catalog/tproduct/586136479-214914630991-tumba-bor"
   },
@@ -722,7 +722,7 @@ export const products: Product[] = [
     price: 25000,
     description: "Стул МЕСТО",
     shortDescription: "Стул МЕСТО",
-    image: "/goods/product_66.png",
+    image: "/products/image66.jpg",
     inStock: true,
     manufacturerUrl: "https://valkeda.ru/catalog/tproduct/586136479-358546871202-stul-mesto"
   },
@@ -733,7 +733,7 @@ export const products: Product[] = [
     price: 39000,
     description: "Скамья МЕСТО",
     shortDescription: "Скамья МЕСТО",
-    image: "/goods/product_67.png",
+    image: "/products/image67.jpg",
     inStock: true,
     manufacturerUrl: "https://valkeda.ru/catalog/tproduct/586136479-734141112172-skamya-mesto"
   },
@@ -744,7 +744,7 @@ export const products: Product[] = [
     price: 127000,
     description: "Кровать ФОРМА",
     shortDescription: "Кровать ФОРМА",
-    image: "/goods/product_68.png",
+    image: "/products/image68.jpg",
     inStock: true,
     manufacturerUrl: "https://valkeda.ru/catalog/tproduct/586136479-574183971821-krovat-forma"
   },
@@ -755,7 +755,7 @@ export const products: Product[] = [
     price: 5700,
     description: "Зеркало АРКИ",
     shortDescription: "Зеркало АРКИ",
-    image: "/goods/product_69.png",
+    image: "/products/image69.jpg",
     inStock: true,
     manufacturerUrl: "https://valkeda.ru/catalog/tproduct/586136479-130321142402-zerkalo-arki"
   },

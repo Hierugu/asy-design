@@ -2,6 +2,7 @@
 
 import { Product } from '@/types/product';
 import Image from 'next/image';
+import { useState } from 'react';
 
 interface ProductCardProps {
   product: Product;
@@ -9,17 +10,31 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ product, onClick }: ProductCardProps) {
+  const [imageError, setImageError] = useState(false);
+  const hasImage = product.image && !imageError;
+
   return (
     <div
       onClick={() => onClick(product)}
       className="bg-[rgb(192_213_206)] rounded-lg shadow-md overflow-hidden cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
     >
-      <div className="relative h-64 bg-gray-200">
-        <div className="absolute inset-0 flex items-center justify-center text-gray-400">
-          <svg className="w-20 h-20" fill="currentColor" viewBox="0 0 20 20">
-            <path fillRule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clipRule="evenodd" />
-          </svg>
-        </div>
+      <div className="relative h-64 bg-gray-200 overflow-hidden flex items-center justify-center">
+        {hasImage ? (
+          <Image
+            src={product.image}
+            alt={product.name}
+            fill
+            className="object-cover w-full h-full"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            onError={() => setImageError(true)}
+          />
+        ) : (
+          <div className="flex items-center justify-center text-gray-400">
+            <svg className="w-20 h-20" fill="currentColor" viewBox="0 0 20 20">
+              <path fillRule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clipRule="evenodd" />
+            </svg>
+          </div>
+        )}
         {!product.inStock && (
           <div className="absolute top-2 right-2 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-medium">
             Нет в наличии
