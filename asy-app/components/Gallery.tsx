@@ -1,8 +1,10 @@
+import Image from 'next/image';
+
 export default function Gallery() {
   const images = [
-    { id: 1, title: 'Современный интерьер' },
-    { id: 2, title: 'Классический дизайн' },
-    { id: 3, title: 'Минималистичное пространство' },
+    { id: 1, title: 'Современный интерьер', src: '/img/1.JPG' },
+    { id: 2, title: 'Классический дизайн', src: '/img/2.JPG' },
+    { id: 3, title: 'Минималистичное пространство', src: '/img/3.JPG' },
   ];
 
   return (
@@ -12,13 +14,16 @@ export default function Gallery() {
           {images.map((image) => (
             <div
               key={image.id}
-              className="aspect-square bg-gray-300 rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow"
+              className="relative aspect-square bg-gray-300 rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow"
             >
-              <div className="w-full h-full flex items-center justify-center text-gray-400">
-                <svg className="w-20 h-20" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clipRule="evenodd" />
-                </svg>
-              </div>
+              <Image
+                src={image.src}
+                alt={image.title}
+                fill
+                className="object-cover"
+                sizes="(min-width: 1024px) 320px, 100vw"
+                priority={image.id === 1}
+              />
             </div>
           ))}
         </div>
