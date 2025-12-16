@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function HeroAbout() {
   const goals = [
     'Поддержка отечественных производителей: мы помогаем российским заводам и мастерским выйти на широкую аудиторию, рассказывая об их качестве, инновациях и преимуществах.',
@@ -12,11 +14,14 @@ export default function HeroAbout() {
           {/* Left Column - Image */}
           <div className="flex justify-center">
             <div className="relative w-full max-w-md h-96 bg-gray-300 rounded-2xl overflow-hidden">
-              <div className="absolute inset-0 flex items-center justify-center text-gray-400">
-                <svg className="w-32 h-32" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clipRule="evenodd" />
-                </svg>
-              </div>
+              <Image
+                src="/img/0.JPG"
+                alt="Домострой — команда и производство"
+                fill
+                className="object-cover"
+                sizes="(min-width: 1024px) 384px, 100vw"
+                priority
+              />
             </div>
           </div>
 
@@ -38,7 +43,7 @@ export default function HeroAbout() {
               <ul className="space-y-4">
                 {goals.map((goal, index) => (
                   <li key={index} className="flex items-start">
-                    <span className="text-[#D8A318] mr-3 mt-1 flex-shrink-0">•</span>
+                    <span className="text-[#D8A318] mr-3 mt-1 shrink-0">•</span>
                     <span className="text-[#636E72] text-sm leading-relaxed">{goal}</span>
                   </li>
                 ))}
