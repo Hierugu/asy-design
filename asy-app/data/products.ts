@@ -21,7 +21,13 @@ export const products: Product[] = [
     shortDescription: "Письменный стол СПМ-351",
     image: "/products/image2.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.sokol-mebel.ru/category/mebel-dlya-doma/stol/pismennyj-stol/goods-pismennyi_stol_spm_351/"
+    manufacturerUrl: "https://www.sokol-mebel.ru/category/mebel-dlya-doma/stol/pismennyj-stol/goods-pismennyi_stol_spm_351/",
+    typeName: "Письменный",
+    dimensions: { width: 120, height: 74, depth: 60 },
+    countryOfOrigin: "Россия",
+    style: ["Современный"],
+    materials: ["ЛДСП"],
+    colors: []
   },
   {
     id: "3",
@@ -32,7 +38,12 @@ export const products: Product[] = [
     shortDescription: "Стеллаж СТ-402",
     image: "/products/image3.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.sokol-mebel.ru/category/mebel-dlya-doma/stellazhi/goods-stellaz_st_402/"
+    manufacturerUrl: "https://www.sokol-mebel.ru/category/mebel-dlya-doma/stellazhi/goods-stellaz_st_402/",
+    typeName: "Открытый",
+    dimensions: { width: 48.6, height: 185, depth: 29.6 },
+    countryOfOrigin: "Россия",
+    style: ["В стиле лофт"],
+    materials: ["Металл", "ЛДСП"]
   },
   {
     id: "4",
@@ -43,7 +54,11 @@ export const products: Product[] = [
     shortDescription: "Стеллаж ШУ-20",
     image: "/products/image4.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.sokol-mebel.ru/category/mebel-dlya-doma/stellazhi/goods-stellaj_shu_20/"
+    manufacturerUrl: "https://www.sokol-mebel.ru/category/mebel-dlya-doma/stellazhi/goods-stellaj_shu_20/",
+    typeName: "Открытый",
+    dimensions: { width: 68.2, height: 182.7, depth: 37.2 },
+    countryOfOrigin: "Россия",
+    materials: ["ЛДСП"]
   },
   {
     id: "5",
@@ -54,7 +69,16 @@ export const products: Product[] = [
     shortDescription: "Кровать с подъемным механизмом Люсия 140",
     image: "/products/image5.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6395972/krovat-s-podemnym-mekhanizmom-lyusiya-140-matras-korbi-velutto-04/"
+    manufacturerUrl: "https://lazurit.com/product/6395972/krovat-s-podemnym-mekhanizmom-lyusiya-140-matras-korbi-velutto-04/",
+    dimensions: { width: 152, height: 113, depth: 216 },
+    countryOfOrigin: "Россия",
+    style: ["Современный"],
+    upholsteryMaterial: "Велюр",
+    frameMaterial: "ЛДСП",
+    legMaterial: "Пластик",
+    maxLoadKg: 120,
+    colors: ["Бежевый"],
+    liftingMechanism: true
   },
   {
     id: "6",
@@ -65,7 +89,16 @@ export const products: Product[] = [
     shortDescription: "Кровать с подъемным механизмом Марин Velutto 32",
     image: "/products/image6.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6394538/krovat-s-podemnym-mekhanizmom-marin-32/krovat-s-podemnym-mekhanizmom-marin-140-32/"
+    manufacturerUrl: "https://lazurit.com/product/6394538/krovat-s-podemnym-mekhanizmom-marin-32/krovat-s-podemnym-mekhanizmom-marin-140-32/",
+    dimensions: { width: 152, height: 113, depth: 216 },
+    countryOfOrigin: "Россия",
+    style: ["Современный"],
+    upholsteryMaterial: "Велюр",
+    frameMaterial: "ЛДСП",
+    legMaterial: "Пластик",
+    maxLoadKg: 120,
+    colors: ["Серый"],
+    liftingMechanism: true
   },
   {
     id: "7",
@@ -76,7 +109,15 @@ export const products: Product[] = [
     shortDescription: "Кровать Эвелин Velutto 56",
     image: "/products/image7.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6391632/krovat-evelin-velutto-56/krovat-evelin-140x200-velutto-56/"
+    manufacturerUrl: "https://lazurit.com/product/6391632/krovat-evelin-velutto-56/krovat-evelin-140x200-velutto-56/",
+    dimensions: { width: 151, height: 105, depth: 210 },
+    countryOfOrigin: "Россия",
+    style: ["Современный", "Скандинавский"],
+    upholsteryMaterial: "Велюр",
+    frameMaterial: "ЛДСП",
+    legMaterial: "Пластик",
+    maxLoadKg: 140,
+    colors: ["Желтый"]
   },
   {
     id: "8",
@@ -87,7 +128,14 @@ export const products: Product[] = [
     shortDescription: "Кровать с подъемным механизмом Мелисса Персидский жемчуг / орех американский",
     image: "/products/image8.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6394181/krovat-s-podemnym-mekhanizmom-melissa-zhemchug/krovat-s-podemnym-mekhanizmom-melissa-140kh2008434/"
+    manufacturerUrl: "https://lazurit.com/product/6394181/krovat-s-podemnym-mekhanizmom-melissa-zhemchug/krovat-s-podemnym-mekhanizmom-melissa-140kh2008434/",
+    dimensions: { width: 147, height: 115, depth: 206 },
+    countryOfOrigin: "Россия",
+    style: ["Прованс"],
+    upholsteryMaterial: "Велюр",
+    maxLoadKg: 140,
+    colors: ["Бежевый", "Белый", "Орех"],
+    liftingMechanism: true
   },
   {
     id: "9",
@@ -98,7 +146,13 @@ export const products: Product[] = [
     shortDescription: "Шкаф распашной Белладжио Дуб белладжио бамбук",
     image: "/products/image9.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6202754/shkaf-belladzhio-3457080/"
+    manufacturerUrl: "https://lazurit.com/product/6202754/shkaf-belladzhio-3457080/",
+    dimensions: { width: 71, height: 203, depth: 41 },
+    countryOfOrigin: "Россия",
+    style: ["Классический"],
+    finishMaterial: "Бамбук",
+    colors: ["Белый"],
+    typeName: "Распашной"
   },
   {
     id: "10",
@@ -109,7 +163,13 @@ export const products: Product[] = [
     shortDescription: "Шкаф Кассия Серый / Дуб вотан",
     image: "/products/image10.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6251033/shkaf-kassiya-5756d-seryy/"
+    manufacturerUrl: "https://lazurit.com/product/6251033/shkaf-kassiya-5756d-seryy/",
+    dimensions: { width: 100, height: 220, depth: 62 },
+    countryOfOrigin: "Россия",
+    style: ["Современный", "Лофт"],
+    finishMaterial: "Бамбук",
+    colors: ["Серый", "Дуб"],
+    typeName: "Распашной"
   },
   {
     id: "11",
@@ -120,7 +180,12 @@ export const products: Product[] = [
     shortDescription: "Шкаф-витрина Белладжио Дуб белладжио",
     image: "/products/image11.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6203010/shkaf-belladzhio-4857067/"
+    manufacturerUrl: "https://lazurit.com/product/6203010/shkaf-belladzhio-4857067/",
+    dimensions: { width: 90, height: 230, depth: 41 },
+    countryOfOrigin: "Россия",
+    style: ["Современный", "Классический"],
+    colors: ["Белый"],
+    typeName: "Распашной"
   },
   {
     id: "12",
@@ -131,7 +196,12 @@ export const products: Product[] = [
     shortDescription: "Шкаф четырехстворчатый Шарли Белый",
     image: "/products/image12.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6236715/shkaf-sharli-chetyrekhstvorchatyy/"
+    manufacturerUrl: "https://lazurit.com/product/6236715/shkaf-sharli-chetyrekhstvorchatyy/",
+    dimensions: { width: 181, height: 210, depth: 60 },
+    countryOfOrigin: "Россия",
+    style: ["Прованс"],
+    colors: ["Белый"],
+    typeName: "Распашной"
   },
   {
     id: "13",
@@ -142,7 +212,12 @@ export const products: Product[] = [
     shortDescription: "Тумба прикроватная Шарли Белый",
     image: "/products/image13.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6236694/tumba-prikrovatnaya-s-2-yashkami-sharli/"
+    manufacturerUrl: "https://lazurit.com/product/6236694/tumba-prikrovatnaya-s-2-yashkami-sharli/",
+    dimensions: { width: 43, height: 58, depth: 40 },
+    countryOfOrigin: "Россия",
+    style: ["Прованс"],
+    materials: ["Бамбук"],
+    colors: ["Белый"]
   },
   {
     id: "14",
@@ -153,7 +228,13 @@ export const products: Product[] = [
     shortDescription: "Стол письменный Кассия Дуб вотан / эвкалипт",
     image: "/products/image14.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6391401/stol-pismennyy-kassiya-evkalipt-67/"
+    manufacturerUrl: "https://lazurit.com/product/6391401/stol-pismennyy-kassiya-evkalipt-67/",
+    typeName: "Письменный",
+    dimensions: { width: 120, height: 78, depth: 60 },
+    countryOfOrigin: "Россия",
+    style: ["Лофт", "Скандинавский"],
+    materials: ["Дуб"],
+    colors: ["Светлое дерево", "Зеленый"]
   },
   {
     id: "15",
@@ -164,7 +245,13 @@ export const products: Product[] = [
     shortDescription: "Туалетный столик Белладжио Дуб белладжио бамбук",
     image: "/products/image15.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6209161/stol-belladzhio-1830526/"
+    manufacturerUrl: "https://lazurit.com/product/6209161/stol-belladzhio-1830526/",
+    typeName: "Туалетный стол",
+    dimensions: { width: 102, height: 81, depth: 50 },
+    countryOfOrigin: "Россия",
+    style: ["Классический"],
+    materials: ["Бамбук"],
+    colors: ["Белый"]
   },
   {
     id: "16",
@@ -175,7 +262,13 @@ export const products: Product[] = [
     shortDescription: "Стол письменный Кассия Серый / Дуб вотан",
     image: "/products/image16.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6267699/stol-pismennyy-kassiya67/"
+    manufacturerUrl: "https://lazurit.com/product/6267699/stol-pismennyy-kassiya67/",
+    typeName: "Письменный стол",
+    dimensions: { width: 102, height: 78, depth: 60 },
+    countryOfOrigin: "Россия",
+    style: ["Лофт", "Скандинавский"],
+    materials: ["Бамбук"],
+    colors: ["Серый", "Светлое дерево"]
   },
   {
     id: "17",
@@ -186,7 +279,13 @@ export const products: Product[] = [
     shortDescription: "Журнальный столик Кассия Дуб вотан / Серый",
     image: "/products/image17.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6224242/zhurnalnyy-stolik-kassiya-3475-grey/"
+    manufacturerUrl: "https://lazurit.com/product/6224242/zhurnalnyy-stolik-kassiya-3475-grey/",
+    typeName: "Журнальный стол",
+    dimensions: { width: 90, height: 33, depth: 55 },
+    countryOfOrigin: "Россия",
+    style: ["Современный"],
+    materials: ["Бамбук"],
+    colors: ["Серый", "Светлое дерево"]
   },
   {
     id: "18",
@@ -197,7 +296,14 @@ export const products: Product[] = [
     shortDescription: "Стул Винсент Черный / Hush 000",
     image: "/products/image18.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6394013/stul-vinsent-hush000/"
+    manufacturerUrl: "https://lazurit.com/product/6394013/stul-vinsent-hush000/",
+    typeName: "Со спинкой",
+    dimensions: { width: 56, height: 86, depth: 60 },
+    countryOfOrigin: "Россия",
+    style: ["Современный", "Лофт"],
+    upholsteryMaterial: "Искусственный мех",
+    colors: ["Белый"],
+    maxLoadKg: 120
   },
   {
     id: "19",
@@ -208,7 +314,14 @@ export const products: Product[] = [
     shortDescription: "Стул поворотный Микки 360° Чёрный / California 994",
     image: "/products/image19.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6379158/stul-povorotnyy-mikki-360-california994/"
+    manufacturerUrl: "https://lazurit.com/product/6379158/stul-povorotnyy-mikki-360-california994/",
+    typeName: "Со спинкой",
+    dimensions: { width: 61, height: 84, depth: 59 },
+    countryOfOrigin: "Россия",
+    style: ["Современный", "Лофт"],
+    upholsteryMaterial: "Велюр",
+    colors: ["Серый"],
+    maxLoadKg: 120
   },
   {
     id: "20",
@@ -219,7 +332,13 @@ export const products: Product[] = [
     shortDescription: "Пуф Бали Soul 690",
     image: "/products/image20.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6390352/puf-bali-soul-690/"
+    manufacturerUrl: "https://lazurit.com/product/6390352/puf-bali-soul-690/",
+    dimensions: { width: 51, height: 49, depth: 52 },
+    countryOfOrigin: "Россия",
+    style: ["Современный", "Лофт"],
+    upholsteryMaterial: "Букле",
+    colors: ["Бирюзовый"],
+    maxLoadKg: 120
   },
   {
     id: "21",
@@ -230,7 +349,13 @@ export const products: Product[] = [
     shortDescription: "Пуф Линц Velutto 72",
     image: "/products/image21.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6350403/puf-lints-72/"
+    manufacturerUrl: "https://lazurit.com/product/6350403/puf-lints-72/",
+    dimensions: { width: 50, height: 41, depth: 50 },
+    countryOfOrigin: "Россия",
+    style: ["Современный"],
+    upholsteryMaterial: "Велюр",
+    colors: ["Голубой"],
+    maxLoadKg: 110
   },
   {
     id: "22",
@@ -241,7 +366,12 @@ export const products: Product[] = [
     shortDescription: "Зеркало Кассия Дуб вотан",
     image: "/products/image22.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6267690/zerkalo-kassiya272/"
+    manufacturerUrl: "https://lazurit.com/product/6267690/zerkalo-kassiya272/",
+    dimensions: { width: 84, height: 84, depth: 1.9 },
+    countryOfOrigin: "Россия",
+    style: ["Скандинавский", "Лофт"],
+    materials: ["Дуб"],
+    colors: ["Светлое дерево"]
   },
   {
     id: "23",
@@ -252,7 +382,12 @@ export const products: Product[] = [
     shortDescription: "Зеркало Белладжио Дуб белладжио",
     image: "/products/image23.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6209359/zerkalo-belladzhio-3448772/"
+    manufacturerUrl: "https://lazurit.com/product/6209359/zerkalo-belladzhio-3448772/",
+    dimensions: { width: 50, height: 100, depth: 2.7 },
+    countryOfOrigin: "Россия",
+    style: ["Классический"],
+    materials: ["Дуб"],
+    colors: ["Белый"]
   },
   {
     id: "24",
@@ -263,7 +398,14 @@ export const products: Product[] = [
     shortDescription: "Диван Портер Velutto 64",
     image: "/products/image24.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6392990/divan-porter-64/"
+    manufacturerUrl: "https://lazurit.com/product/6392990/divan-porter-64/",
+    dimensions: { width: 222, height: 90, depth: 94 },
+    countryOfOrigin: "Россия",
+    style: ["Классический"],
+    upholsteryMaterial: "Велюр",
+    colors: ["Красный"],
+    mechanism: "Еврокнижка",
+    hasStorage: true
   },
   {
     id: "25",
@@ -274,7 +416,15 @@ export const products: Product[] = [
     shortDescription: "Диван Лиам Lambre 402",
     image: "/products/image25.jpg",
     inStock: true,
-    manufacturerUrl: "https://lazurit.com/product/6390768/divan-liam-lambre402/"
+    manufacturerUrl: "https://lazurit.com/product/6390768/divan-liam-lambre402/",
+    dimensions: { width: 307, height: 96, depth: 110 },
+    countryOfOrigin: "Россия",
+    style: ["Лофт"],
+    upholsteryMaterial: "Велюр",
+    legMaterial: "Металл",
+    colors: ["Оранжевый"],
+    mechanism: "Пантограф",
+    hasStorage: true
   },
   {
     id: "26",
@@ -285,7 +435,14 @@ export const products: Product[] = [
     shortDescription: "Диван прямой Лилт Bucle White",
     image: "/products/image26.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/divan-lilt-bucle-white"
+    manufacturerUrl: "https://www.divan.ru/product/divan-lilt-bucle-white",
+    dimensions: { width: 126, height: 270, depth: 86 },
+    countryOfOrigin: "Россия",
+    upholsteryMaterial: "Букле",
+    legMaterial: "Пластик",
+    colors: ["Белый"],
+    mechanism: "Еврокнижка",
+    hasStorage: true
   },
   {
     id: "27",
@@ -296,7 +453,13 @@ export const products: Product[] = [
     shortDescription: "Кушетка Олтен Textile Blue",
     image: "/products/image27.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/kushetka-olten-textile-blue-old-13-05-2025"
+    manufacturerUrl: "https://www.divan.ru/product/kushetka-olten-textile-blue-old-13-05-2025",
+    dimensions: { width: 82, height: 143, depth: 73 },
+    countryOfOrigin: "Россия",
+    upholsteryMaterial: "Букле",
+    legMaterial: "Пластик",
+    colors: ["Синий"],
+    hasStorage: false
   },
   {
     id: "28",
@@ -307,7 +470,12 @@ export const products: Product[] = [
     shortDescription: "Диван модульный Brera-3 Velour Plum",
     image: "/products/image28.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/modulnyj-divan-brera-3-velour-plum"
+    manufacturerUrl: "https://www.divan.ru/product/modulnyj-divan-brera-3-velour-plum",
+    dimensions: { width: 88, height: 218, depth: 75 },
+    countryOfOrigin: "Россия",
+    upholsteryMaterial: "Букле",
+    legMaterial: "Пластик",
+    colors: ["Фиолетовый"]
   },
   {
     id: "29",
@@ -318,7 +486,13 @@ export const products: Product[] = [
     shortDescription: "Кровать Табия 90 Soft Terra",
     image: "/products/image29.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/krovat-tabiya-90-soft-terra"
+    manufacturerUrl: "https://www.divan.ru/product/krovat-tabiya-90-soft-terra",
+    dimensions: { width: 118, height: 230, depth: 70 },
+    countryOfOrigin: "Россия",
+    upholsteryMaterial: "Букле",
+    legMaterial: "Массив",
+    colors: ["Оранжевый"],
+    liftingMechanism: false
   },
   {
     id: "30",
@@ -328,7 +502,13 @@ export const products: Product[] = [
     description: "Кровать Ева 160 Barhat Latte",
     shortDescription: "Кровать Ева 160 Barhat Latte",
     image: "/products/image30.jpg",
-    inStock: true
+    inStock: true,
+    dimensions: { width: 174, height: 219, depth: 108 },
+    countryOfOrigin: "Россия",
+    upholsteryMaterial: "Букле",
+    legMaterial: "Массив",
+    colors: ["Коричневый"],
+    liftingMechanism: false
   },
   {
     id: "31",
@@ -339,7 +519,13 @@ export const products: Product[] = [
     shortDescription: "Журнальный стол Ньюман-2 Galaxy",
     image: "/products/image31.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/jurnalnyj-stol-nyuman-2-galaxy"
+    manufacturerUrl: "https://www.divan.ru/product/jurnalnyj-stol-nyuman-2-galaxy",
+    typeName: "Журнальный стол",
+    dimensions: { width: 75, height: 75, depth: 38 },
+    countryOfOrigin: "Россия",
+    materials: ["Металл"],
+    colors: ["Ультрамарин"],
+    maxLoadKg: 50
   },
   {
     id: "32",
@@ -350,7 +536,13 @@ export const products: Product[] = [
     shortDescription: "Журнальный стол Тони Puffin",
     image: "/products/image32.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/jurnalnyj-stol-toni-puffin"
+    manufacturerUrl: "https://www.divan.ru/product/jurnalnyj-stol-toni-puffin",
+    typeName: "Журнальный стол",
+    dimensions: { width: 30, height: 30, depth: 43 },
+    countryOfOrigin: "Россия",
+    materials: ["Пластик"],
+    colors: ["Оранжевый"],
+    maxLoadKg: 50
   },
   {
     id: "33",
@@ -361,7 +553,13 @@ export const products: Product[] = [
     shortDescription: "Письменный стол Бинкер Terra",
     image: "/products/image33.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/pismennyj-stol-binker-terra"
+    manufacturerUrl: "https://www.divan.ru/product/pismennyj-stol-binker-terra",
+    typeName: "Письменный стол",
+    dimensions: { width: 60, height: 120, depth: 75 },
+    countryOfOrigin: "Россия",
+    materials: ["МДФ"],
+    colors: ["Розовый"],
+    maxLoadKg: 70
   },
   {
     id: "34",
@@ -372,7 +570,13 @@ export const products: Product[] = [
     shortDescription: "Кухонный стол Лори-2 Walnut",
     image: "/products/image34.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/kuhonnyj-stol-lori-2-walnut"
+    manufacturerUrl: "https://www.divan.ru/product/kuhonnyj-stol-lori-2-walnut",
+    typeName: "Кухонный стол",
+    dimensions: { width: 90, height: 60, depth: 76 },
+    countryOfOrigin: "Россия",
+    materials: ["МДФ"],
+    colors: ["Орех"],
+    maxLoadKg: 100
   },
   {
     id: "35",
@@ -383,7 +587,13 @@ export const products: Product[] = [
     shortDescription: "Кухонный стол Тюлип 100 Black",
     image: "/products/image35.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/kuhonnyj-stol-tyulip-100-black"
+    manufacturerUrl: "https://www.divan.ru/product/kuhonnyj-stol-tyulip-100-black",
+    typeName: "Кухонный стол",
+    dimensions: { width: 100, height: 100, depth: 73 },
+    countryOfOrigin: "Россия",
+    materials: ["МДФ"],
+    colors: ["Черный"],
+    maxLoadKg: 100
   },
   {
     id: "36",
@@ -394,7 +604,13 @@ export const products: Product[] = [
     shortDescription: "Кухонный стол Клифорд Wood",
     image: "/products/image36.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/kuhonnyj-stol-kliford-wood"
+    manufacturerUrl: "https://www.divan.ru/product/kuhonnyj-stol-kliford-wood",
+    typeName: "Кухонный стол",
+    dimensions: { width: 120, height: 120, depth: 75 },
+    countryOfOrigin: "Россия",
+    materials: ["МДФ"],
+    colors: ["Светлое дерево"],
+    maxLoadKg: 100
   },
   {
     id: "37",
@@ -405,7 +621,13 @@ export const products: Product[] = [
     shortDescription: "Распашной шкаф Виклу-3 Greenish Oak",
     image: "/products/image37.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/raspashnoj-shkaf-viklu-3-greenish-oak"
+    manufacturerUrl: "https://www.divan.ru/product/raspashnoj-shkaf-viklu-3-greenish-oak",
+    typeName: "Распашной",
+    dimensions: { width: 135, height: 210, depth: 54 },
+    countryOfOrigin: "Россия",
+    materials: ["МДФ"],
+    legMaterial: "Массив",
+    colors: ["Голубой"]
   },
   {
     id: "38",
@@ -416,7 +638,12 @@ export const products: Product[] = [
     shortDescription: "Шкаф Финни-3 Greenish",
     image: "/products/image38.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/shkaf-detskij-finni-3-greenish"
+    manufacturerUrl: "https://www.divan.ru/product/shkaf-detskij-finni-3-greenish",
+    dimensions: { width: 144, height: 210, depth: 52 },
+    countryOfOrigin: "Россия",
+    materials: ["МДФ"],
+    legMaterial: "Массив",
+    colors: ["Голубой", "Белый"]
   },
   {
     id: "39",
@@ -427,7 +654,13 @@ export const products: Product[] = [
     shortDescription: "Распашной шкаф Тайрон-2 Savage",
     image: "/products/image39.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/raspashnoj-shkaf-tajron-2-savage"
+    manufacturerUrl: "https://www.divan.ru/product/raspashnoj-shkaf-tajron-2-savage",
+    typeName: "Распашной",
+    dimensions: { width: 95, height: 200, depth: 50 },
+    countryOfOrigin: "Россия",
+    materials: ["МДФ"],
+    legMaterial: "Массив",
+    colors: ["Белый", "Светлое дерево", "Оранжевый"]
   },
   {
     id: "40",
@@ -438,7 +671,12 @@ export const products: Product[] = [
     shortDescription: "Стул Киана Velvet Terra",
     image: "/products/image40.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/stul-kiana-velvet-terra"
+    manufacturerUrl: "https://www.divan.ru/product/stul-kiana-velvet-terra",
+    dimensions: { width: 58, height: 81, depth: 56 },
+    countryOfOrigin: "Россия",
+    upholsteryMaterial: "Велюр",
+    legMaterial: "Металл",
+    colors: ["Оранжевый"]
   },
   {
     id: "41",
@@ -449,7 +687,12 @@ export const products: Product[] = [
     shortDescription: "Стул Дик-1 Textile Olive",
     image: "/products/image41.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/stul-dik-1-textile-olive"
+    manufacturerUrl: "https://www.divan.ru/product/stul-dik-1-textile-olive",
+    dimensions: { width: 63, height: 82, depth: 73 },
+    countryOfOrigin: "Россия",
+    upholsteryMaterial: "Велюр",
+    legMaterial: "Металл",
+    colors: ["Зеленый"]
   },
   {
     id: "42",
@@ -460,7 +703,12 @@ export const products: Product[] = [
     shortDescription: "Стул Вирден Textile Beige",
     image: "/products/image42.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/stul-virden-textile-beige"
+    manufacturerUrl: "https://www.divan.ru/product/stul-virden-textile-beige",
+    dimensions: { width: 63, height: 82, depth: 73 },
+    countryOfOrigin: "Россия",
+    upholsteryMaterial: "Ткань",
+    legMaterial: "Бамбук",
+    colors: ["Светлое дерево", "Белый"]
   },
   {
     id: "43",
@@ -471,7 +719,12 @@ export const products: Product[] = [
     shortDescription: "Ковер Север 200x300",
     image: "/products/image43.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/kover-sever-200x300"
+    manufacturerUrl: "https://www.divan.ru/product/kover-sever-200x300",
+    dimensions: { width: 200, height: 300 },
+    countryOfOrigin: "Россия",
+    typeName: "Безворсовый",
+    composition: ["хлопок"],
+    colors: ["Белый", "Синий"]
   },
   {
     id: "44",
@@ -482,7 +735,12 @@ export const products: Product[] = [
     shortDescription: "Ковер Тут Рядом Неожиданно Бежевый",
     image: "/products/image44.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/kover-tut-ryadom-neojidanno-bejevyj-160x230"
+    manufacturerUrl: "https://www.divan.ru/product/kover-tut-ryadom-neojidanno-bejevyj-160x230",
+    dimensions: { width: 160, height: 230 },
+    countryOfOrigin: "Россия",
+    typeName: "Ворсовый",
+    composition: ["хлопок", "полиэстер"],
+    colors: ["Белый", "Оранжевый"]
   },
   {
     id: "45",
@@ -493,7 +751,12 @@ export const products: Product[] = [
     shortDescription: "Ковер Ригос 120x180",
     image: "/products/image45.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/kover-rigos-120x180"
+    manufacturerUrl: "https://www.divan.ru/product/kover-rigos-120x180",
+    dimensions: { width: 120, height: 180 },
+    countryOfOrigin: "Россия",
+    typeName: "Ворсовый",
+    composition: ["хлопок", "полиэстер"],
+    colors: ["Белый"]
   },
   {
     id: "46",
@@ -504,7 +767,12 @@ export const products: Product[] = [
     shortDescription: "Ковер Тут Рядом Легко Бежевый 80x150",
     image: "/products/image46.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/kover-tut-ryadom-legko-bejevyj-80x150"
+    manufacturerUrl: "https://www.divan.ru/product/kover-tut-ryadom-legko-bejevyj-80x150",
+    dimensions: { width: 80, height: 150 },
+    countryOfOrigin: "Россия",
+    typeName: "Ворсовый",
+    composition: ["хлопок"],
+    colors: ["Оранжевый"]
   },
   {
     id: "47",
@@ -515,7 +783,12 @@ export const products: Product[] = [
     shortDescription: "Торшер Ральф Beige",
     image: "/products/image47.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/torsher-ralf-beige"
+    manufacturerUrl: "https://www.divan.ru/product/torsher-ralf-beige",
+    dimensions: { width: 30, height: 92, depth: 182 },
+    countryOfOrigin: "Россия",
+    fixtureMaterial: "Металл",
+    lampType: "Светодиодная",
+    colors: ["Оранжевый", "Черный"]
   },
   {
     id: "48",
@@ -526,7 +799,12 @@ export const products: Product[] = [
     shortDescription: "Торшер Грено-2 Beige",
     image: "/products/image48.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/torsher-greno-2-beige"
+    manufacturerUrl: "https://www.divan.ru/product/torsher-greno-2-beige",
+    dimensions: { width: 104, height: 35, depth: 78 },
+    countryOfOrigin: "Россия",
+    fixtureMaterial: "Металл",
+    lampType: "Светодиодная",
+    colors: ["Белый"]
   },
   {
     id: "49",
@@ -537,7 +815,12 @@ export const products: Product[] = [
     shortDescription: "Настольная лампа Машрум-2 Black",
     image: "/products/image49.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/nastolnaya-lampa-mashrum-2-black"
+    manufacturerUrl: "https://www.divan.ru/product/nastolnaya-lampa-mashrum-2-black",
+    dimensions: { width: 22, height: 22, depth: 32 },
+    countryOfOrigin: "Россия",
+    fixtureMaterial: "Металл",
+    lampType: "Светодиодная",
+    colors: ["Черный"]
   },
   {
     id: "50",
@@ -548,7 +831,12 @@ export const products: Product[] = [
     shortDescription: "Настольная лампа Сфера Orange",
     image: "/products/image50.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/nastolnaya-lampa-sfera-orange"
+    manufacturerUrl: "https://www.divan.ru/product/nastolnaya-lampa-sfera-orange",
+    dimensions: { width: 22, height: 22, depth: 32 },
+    countryOfOrigin: "Россия",
+    fixtureMaterial: "Пластик",
+    lampType: "Светодиодная",
+    colors: ["Белый", "Оранжевый"]
   },
   {
     id: "51",
@@ -559,7 +847,12 @@ export const products: Product[] = [
     shortDescription: "Настольная лампа Спайк Green",
     image: "/products/image51.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/nastolnaya-lampa-spajk-green"
+    manufacturerUrl: "https://www.divan.ru/product/nastolnaya-lampa-spajk-green",
+    dimensions: { width: 20, height: 20, depth: 37 },
+    countryOfOrigin: "Россия",
+    fixtureMaterial: "Пластик",
+    lampType: "Светодиодная",
+    colors: ["Белый", "Зеленый"]
   },
   {
     id: "52",
@@ -570,7 +863,12 @@ export const products: Product[] = [
     shortDescription: "Настольная лампа Требен Orange",
     image: "/products/image52.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/nastolnaya-lampa-treben-orange"
+    manufacturerUrl: "https://www.divan.ru/product/nastolnaya-lampa-treben-orange",
+    dimensions: { width: 18, height: 18, depth: 38 },
+    countryOfOrigin: "Россия",
+    fixtureMaterial: "Массив",
+    lampType: "Светодиодная",
+    colors: ["Оранжевый", "Светлое дерево"]
   },
   {
     id: "53",
@@ -581,7 +879,12 @@ export const products: Product[] = [
     shortDescription: "Люстра Ливсден Brown",
     image: "/products/image53.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/lyustra-livsden-brown"
+    manufacturerUrl: "https://www.divan.ru/product/lyustra-livsden-brown",
+    dimensions: { width: 38, height: 142, depth: 184 },
+    countryOfOrigin: "Россия",
+    fixtureMaterial: "Сталь",
+    lampType: "Светодиодная",
+    colors: ["Черный", "Коричневый"]
   },
   {
     id: "54",
@@ -592,7 +895,12 @@ export const products: Product[] = [
     shortDescription: "Подвесной светильник Намсен Black",
     image: "/products/image54.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/podvesnoj-svetilnik-namsen-black"
+    manufacturerUrl: "https://www.divan.ru/product/podvesnoj-svetilnik-namsen-black",
+    dimensions: { width: 6, height: 120, depth: 180 },
+    countryOfOrigin: "Россия",
+    fixtureMaterial: "Сталь",
+    lampType: "Светодиодная",
+    colors: ["Черный", "Серый"]
   },
   {
     id: "55",
@@ -603,7 +911,12 @@ export const products: Product[] = [
     shortDescription: "Люстра Гейза Black",
     image: "/products/image55.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/lyustra-gejza-black"
+    manufacturerUrl: "https://www.divan.ru/product/lyustra-gejza-black",
+    dimensions: { width: 65, height: 65, depth: 158 },
+    countryOfOrigin: "Россия",
+    fixtureMaterial: "Металл",
+    lampType: "Светодиодная",
+    colors: ["Черный", "Белый"]
   },
   {
     id: "56",
@@ -614,7 +927,11 @@ export const products: Product[] = [
     shortDescription: "Зеркало настенное Эйдис Olive",
     image: "/products/image56.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/zerkalo-nastennoe-ejdis-olive"
+    manufacturerUrl: "https://www.divan.ru/product/zerkalo-nastennoe-ejdis-olive",
+    dimensions: { width: 90, height: 45, depth: 3 },
+    countryOfOrigin: "Россия",
+    frameMaterial: "Дуб",
+    colors: ["Зеленый"]
   },
   {
     id: "57",
@@ -625,7 +942,11 @@ export const products: Product[] = [
     shortDescription: "Зеркало настенное Магни Burgundy",
     image: "/products/image57.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/zerkalo-nastennoe-magni-burgundy"
+    manufacturerUrl: "https://www.divan.ru/product/zerkalo-nastennoe-magni-burgundy",
+    dimensions: { width: 45, height: 46, depth: 4 },
+    countryOfOrigin: "Россия",
+    frameMaterial: "Дуб",
+    colors: ["Красный"]
   },
   {
     id: "58",
@@ -636,7 +957,11 @@ export const products: Product[] = [
     shortDescription: "Зеркало напольное Андерс Wood",
     image: "/products/image58.jpg",
     inStock: true,
-    manufacturerUrl: "https://www.divan.ru/product/zerkalo-napolnoe-anders-wood"
+    manufacturerUrl: "https://www.divan.ru/product/zerkalo-napolnoe-anders-wood",
+    dimensions: { width: 150, height: 40, depth: 3 },
+    countryOfOrigin: "Россия",
+    frameMaterial: "Массив",
+    colors: ["Светлое дерево"]
   },
   {
     id: "59",
@@ -647,7 +972,12 @@ export const products: Product[] = [
     shortDescription: "eburet",
     image: "/products/image59.jpg",
     inStock: true,
-    manufacturerUrl: "https://eburet.com/shop/tproduct/508717154-369456578611-eburet"
+    manufacturerUrl: "https://eburet.com/shop/tproduct/508717154-369456578611-eburet",
+    dimensions: { width: 53, height: 45, depth: 32 },
+    countryOfOrigin: "Россия",
+    materials: ["Пластик"],
+    colors: ["Розовый"],
+    maxLoadKg: 100
   },
   {
     id: "60",
@@ -658,7 +988,12 @@ export const products: Product[] = [
     shortDescription: "STYUL",
     image: "/products/image60.jpg",
     inStock: true,
-    manufacturerUrl: "https://eburet.com/shop/tproduct/508717154-898525659181-styul"
+    manufacturerUrl: "https://eburet.com/shop/tproduct/508717154-898525659181-styul",
+    dimensions: { width: 70, height: 80, depth: 40 },
+    countryOfOrigin: "Россия",
+    materials: ["Пластик"],
+    colors: ["Желтый"],
+    maxLoadKg: 150
   },
   {
     id: "61",
@@ -669,7 +1004,12 @@ export const products: Product[] = [
     shortDescription: "VALERA +",
     image: "/products/image61.jpg",
     inStock: true,
-    manufacturerUrl: "https://eburet.com/shop/tproduct/508717154-437587289961-valera-"
+    manufacturerUrl: "https://eburet.com/shop/tproduct/508717154-437587289961-valera-",
+    dimensions: { width: 52, height: 76, depth: 50 },
+    countryOfOrigin: "Россия",
+    materials: ["Пластик"],
+    colors: ["Черный"],
+    maxLoadKg: 150
   },
   {
     id: "62",
@@ -680,7 +1020,12 @@ export const products: Product[] = [
     shortDescription: "NYAMBA",
     image: "/products/image62.jpg",
     inStock: true,
-    manufacturerUrl: "https://eburet.com/shop/tproduct/508717154-439113914451-nyamba"
+    manufacturerUrl: "https://eburet.com/shop/tproduct/508717154-439113914451-nyamba",
+    dimensions: { width: 47, height: 57, depth: 17 },
+    countryOfOrigin: "Россия",
+    fixtureMaterial: "Пластик",
+    lampType: "Светодиодная",
+    colors: ["Белый"]
   },
   {
     id: "63",
@@ -691,7 +1036,12 @@ export const products: Product[] = [
     shortDescription: "BATON",
     image: "/products/image63.jpg",
     inStock: true,
-    manufacturerUrl: "https://eburet.com/shop/tproduct/508717154-141756127541-baton"
+    manufacturerUrl: "https://eburet.com/shop/tproduct/508717154-141756127541-baton",
+    dimensions: { width: 35, height: 65, depth: 140 },
+    countryOfOrigin: "Россия",
+    materials: ["Пластик"],
+    colors: ["Черный"],
+    maxLoadKg: 150
   },
   {
     id: "64",
@@ -702,7 +1052,12 @@ export const products: Product[] = [
     shortDescription: "Табурет/тумба",
     image: "/products/image64.jpg",
     inStock: true,
-    manufacturerUrl: "https://valkeda.ru/catalog/tproduct/586136479-348681897342-taburettumba"
+    manufacturerUrl: "https://valkeda.ru/catalog/tproduct/586136479-348681897342-taburettumba",
+    dimensions: { width: 34, height: 47, depth: 34 },
+    countryOfOrigin: "Россия",
+    materials: ["Массив бука"],
+    colors: ["Черный"],
+    maxLoadKg: 100
   },
   {
     id: "65",
@@ -713,7 +1068,12 @@ export const products: Product[] = [
     shortDescription: "Тумба БОР",
     image: "/products/image65.jpg",
     inStock: true,
-    manufacturerUrl: "https://valkeda.ru/catalog/tproduct/586136479-214914630991-tumba-bor"
+    manufacturerUrl: "https://valkeda.ru/catalog/tproduct/586136479-214914630991-tumba-bor",
+    dimensions: { width: 43, height: 54, depth: 43.5 },
+    countryOfOrigin: "Россия",
+    materials: ["Массив ясеня"],
+    colors: ["Коричневый"],
+    maxLoadKg: 100
   },
   {
     id: "66",
@@ -724,7 +1084,12 @@ export const products: Product[] = [
     shortDescription: "Стул МЕСТО",
     image: "/products/image66.jpg",
     inStock: true,
-    manufacturerUrl: "https://valkeda.ru/catalog/tproduct/586136479-358546871202-stul-mesto"
+    manufacturerUrl: "https://valkeda.ru/catalog/tproduct/586136479-358546871202-stul-mesto",
+    dimensions: { width: 40, height: 75, depth: 40 },
+    countryOfOrigin: "Россия",
+    materials: ["Массив ясеня"],
+    colors: ["Светлое дерево"],
+    maxLoadKg: 150
   },
   {
     id: "67",
@@ -735,7 +1100,12 @@ export const products: Product[] = [
     shortDescription: "Скамья МЕСТО",
     image: "/products/image67.jpg",
     inStock: true,
-    manufacturerUrl: "https://valkeda.ru/catalog/tproduct/586136479-734141112172-skamya-mesto"
+    manufacturerUrl: "https://valkeda.ru/catalog/tproduct/586136479-734141112172-skamya-mesto",
+    dimensions: { width: 175, height: 45, depth: 45 },
+    countryOfOrigin: "Россия",
+    materials: ["Массив ясеня"],
+    colors: ["Светлое дерево"],
+    maxLoadKg: 250
   },
   {
     id: "68",
@@ -746,7 +1116,13 @@ export const products: Product[] = [
     shortDescription: "Кровать ФОРМА",
     image: "/products/image68.jpg",
     inStock: true,
-    manufacturerUrl: "https://valkeda.ru/catalog/tproduct/586136479-574183971821-krovat-forma"
+    manufacturerUrl: "https://valkeda.ru/catalog/tproduct/586136479-574183971821-krovat-forma",
+    dimensions: { width: 169, height: 98, depth: 214 },
+    countryOfOrigin: "Россия",
+    frameMaterial: "Массив дуба",
+    upholsteryMaterial: "Текстиль",
+    colors: ["Черный", "Серый"],
+    maxLoadKg: 500
   },
   {
     id: "69",
@@ -757,6 +1133,10 @@ export const products: Product[] = [
     shortDescription: "Зеркало АРКИ",
     image: "/products/image69.jpg",
     inStock: true,
-    manufacturerUrl: "https://valkeda.ru/catalog/tproduct/586136479-130321142402-zerkalo-arki"
+    manufacturerUrl: "https://valkeda.ru/catalog/tproduct/586136479-130321142402-zerkalo-arki",
+    dimensions: { width: 27, height: 40, depth: 2 },
+    countryOfOrigin: "Россия",
+    materials: ["Массив бука"],
+    colors: ["Белый"]
   },
 ];

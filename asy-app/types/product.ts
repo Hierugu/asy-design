@@ -22,5 +22,21 @@ export interface Product {
     height: number;
     depth?: number;
   };
+  // Additional characteristics
+  countryOfOrigin?: string;
+  style?: string[];
+  colors?: string[];
+  typeName?: string; // e.g., Письменный, Журнальный, Распашной, Со спинкой
+  composition?: string[]; // rugs etc.
+  mechanism?: string; // диваны/кровати
+  liftingMechanism?: boolean; // кровати
+  hasStorage?: boolean; // ящик для хранения
+  maxLoadKg?: number; // generic max load
+  lampType?: string; // for lamps
+  frameMaterial?: string;
+  upholsteryMaterial?: string;
+  legMaterial?: string;
+  finishMaterial?: string;
+  fixtureMaterial?: string;
   manufacturerUrl?: string;
 }

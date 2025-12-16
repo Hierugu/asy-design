@@ -109,6 +109,55 @@ export default function ProductModal({ product, isOpen, onClose }: ProductModalP
                       <p className="text-[#636E72]">{product.materials.join(', ')}</p>
                     </div>
                   )}
+
+                  {(product.typeName || product.countryOfOrigin || (product.style && product.style.length) || (product.colors && product.colors.length)) && (
+                    <div className="mb-4">
+                      <h4 className="font-medium text-[#2D3436] mb-2">Общая информация:</h4>
+                      <ul className="text-[#636E72] space-y-1">
+                        {product.typeName && <li>Тип: {product.typeName}</li>}
+                        {product.countryOfOrigin && <li>Страна производства: {product.countryOfOrigin}</li>}
+                        {product.style && product.style.length > 0 && (
+                          <li>Стиль: {product.style.join(', ')}</li>
+                        )}
+                        {product.colors && product.colors.length > 0 && (
+                          <li>Цвет: {product.colors.join(', ')}</li>
+                        )}
+                      </ul>
+                    </div>
+                  )}
+
+                  {(product.upholsteryMaterial || product.frameMaterial || product.legMaterial || product.finishMaterial || product.fixtureMaterial || (product.composition && product.composition.length > 0)) && (
+                    <div className="mb-4">
+                      <h4 className="font-medium text-[#2D3436] mb-2">Материалы и состав:</h4>
+                      <ul className="text-[#636E72] space-y-1">
+                        {product.upholsteryMaterial && <li>Материал обивки: {product.upholsteryMaterial}</li>}
+                        {product.frameMaterial && <li>Материал каркаса/рамы: {product.frameMaterial}</li>}
+                        {product.legMaterial && <li>Материал ножек: {product.legMaterial}</li>}
+                        {product.finishMaterial && <li>Материал отделки: {product.finishMaterial}</li>}
+                        {product.fixtureMaterial && <li>Материал арматуры: {product.fixtureMaterial}</li>}
+                        {product.composition && product.composition.length > 0 && (
+                          <li>Состав: {product.composition.join(', ')}</li>
+                        )}
+                      </ul>
+                    </div>
+                  )}
+
+                  {(product.mechanism || typeof product.liftingMechanism === 'boolean' || typeof product.hasStorage === 'boolean' || product.maxLoadKg || product.lampType) && (
+                    <div className="mb-4">
+                      <h4 className="font-medium text-[#2D3436] mb-2">Функции и параметры:</h4>
+                      <ul className="text-[#636E72] space-y-1">
+                        {product.mechanism && <li>Механизм: {product.mechanism}</li>}
+                        {typeof product.liftingMechanism === 'boolean' && (
+                          <li>Подъемный механизм: {product.liftingMechanism ? 'есть' : 'нет'}</li>
+                        )}
+                        {typeof product.hasStorage === 'boolean' && (
+                          <li>Ящик для хранения: {product.hasStorage ? 'есть' : 'нет'}</li>
+                        )}
+                        {product.maxLoadKg && <li>Максимальная нагрузка: {product.maxLoadKg} кг</li>}
+                        {product.lampType && <li>Тип лампы: {product.lampType}</li>}
+                      </ul>
+                    </div>
+                  )}
                 </div>
 
                 <div className="border-t border-gray-200 pt-6">
