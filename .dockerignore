@@ -1,0 +1,17 @@
+node_modules
+npm-debug.log
+.git
+.gitignore
+README.md
+.env
+.env.local
+.venv
+__pycache__
+*.pyc
+.next
+.eslintcache
+.DS_Store
+dist
+build
+*_old.ts
+products_old.ts
