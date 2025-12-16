@@ -32,8 +32,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-medium text-[#2D3436] mb-1">Email</h3>
-                    <p className="text-[#636E72]">info@asydesign.ru</p>
-                    <p className="text-[#636E72]">sales@asydesign.ru</p>
+                    <p className="text-[#636E72]">info@domostroy.ru</p>
+                    <p className="text-[#636E72]">sales@domostroy.ru</p>
                   </div>
                 </div>
 
@@ -46,8 +46,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-medium text-[#2D3436] mb-1">Адрес</h3>
-                    <p className="text-[#636E72]">г. Москва, ул. Примерная, д. 123</p>
-                    <p className="text-[#636E72]">БЦ "Современный", офис 456</p>
+                    <p className="text-[#636E72]">191028, Санкт-Петербург, Соляной переулок, дом 13</p>
                   </div>
                 </div>
 
