@@ -2,11 +2,12 @@
 
 :root {
   /* Основные цвета */
-  --background: rgb(178 199 192);
-  --background-nav: rgb(192 213 206);
+  --background: #DEDED1;
+  --background-nav: #616161;
   --background-presentation: #D8A318;
   --foreground: #2D3436;
-  --foreground-secondary: #636E72;
+  --foreground-secondary: #DEDED1;
+  --foreground-nav: #D33B28;
   
   /* Для контента */
   --background-content: #FFFFFF;
@@ -17,6 +18,7 @@
   --color-background-presentation: var(--background-presentation);
   --color-foreground: var(--foreground);
   --color-foreground-secondary: var(--foreground-secondary);
+  --color-foreground-nav: var(--foreground-nav);
   --color-background-content: var(--background-content);
   --font-sans: var(--font-bim);
 }

@@ -33,17 +33,17 @@ export default function AudienceSection() {
   ];
 
   return (
-    <section className="py-16 bg-[rgb(178_199_192)]">
+    <section className="py-16 bg-[var(--background)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8">
           {audiences.map((audience, index) => (
-            <div key={index} className="bg-[rgb(192_213_206)] rounded-xl p-8 shadow-sm">
+            <div key={index} className="bg-[var(--background-nav)] rounded-xl p-8 shadow-sm">
               <h3 className="text-2xl font-semibold text-[#2D3436] mb-6">{audience.title}</h3>
               <ul className="space-y-3">
                 {audience.benefits.map((benefit, idx) => (
                   <li key={idx} className="flex items-start">
                     <span className="text-[#D8A318] mr-3 mt-1">✓</span>
-                    <span className="text-[#636E72]">{benefit}</span>
+                    <span className="text-[var(--foreground-secondary)]">{benefit}</span>
                   </li>
                 ))}
               </ul>

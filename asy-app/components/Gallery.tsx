@@ -8,7 +8,7 @@ export default function Gallery() {
   ];
 
   return (
-    <section className="py-16 bg-[rgb(192_213_206)]">
+    <section className="py-16 bg-[var(--background)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8">
           {images.map((image) => (

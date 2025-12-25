@@ -71,11 +71,11 @@ export default function CatalogPage() {
   }, []);
 
   return (
-    <main className="min-h-screen bg-[rgb(178_199_192)] py-12">
+    <main className="min-h-screen bg-[var(--background)] py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-8">
           <h1 className="text-4xl font-semibold text-[#2D3436] mb-4">Каталог</h1>
-          <p className="text-lg text-[#636E72] leading-relaxed">
+          <p className="text-lg text-[var(--foreground-secondary)] leading-relaxed">
             Выберите из нашей коллекции мебели и декора
           </p>
         </div>
@@ -89,7 +89,7 @@ export default function CatalogPage() {
               className={`px-6 py-2 rounded-lg font-medium transition-colors ${
                 filter === option.key
                   ? 'bg-[#2D3436] text-white'
-                  : 'bg-[rgb(192_213_206)] text-[#2D3436] hover:bg-[rgb(192_213_206)]'
+                  : 'bg-[var(--background-nav)] text-[#2D3436] hover:bg-[var(--background-nav)]'
               }`}
             >
               {option.label} ({option.key === 'all' ? products.length : countsByCategory[option.key]})
@@ -110,7 +110,7 @@ export default function CatalogPage() {
 
         {filteredProducts.length === 0 && (
           <div className="text-center py-12">
-            <p className="text-[#636E72] text-lg">Товары не найдены</p>
+            <p className="text-[var(--foreground-secondary)] text-lg">Товары не найдены</p>
           </div>
         )}
       </div>

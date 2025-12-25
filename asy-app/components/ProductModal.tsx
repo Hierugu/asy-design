@@ -45,11 +45,11 @@ export default function ProductModal({ product, isOpen, onClose }: ProductModalP
         />
 
         {/* Modal */}
-        <div className="relative bg-[rgb(192_213_206)] rounded-lg shadow-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+        <div className="relative bg-[var(--background-nav)] rounded-lg shadow-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
           {/* Close button */}
           <button
             onClick={onClose}
-            className="absolute top-4 right-4 text-[#636E72] hover:text-[#2D3436] z-10"
+            className="absolute top-4 right-4 text-[var(--foreground-secondary)] hover:text-[var(--foreground)] z-10"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -88,7 +88,7 @@ export default function ProductModal({ product, isOpen, onClose }: ProductModalP
 
                 <h2 className="text-3xl font-semibold text-[#2D3436] mb-4">{product.name}</h2>
 
-                <p className="text-[#636E72] mb-6 leading-relaxed">{product.description}</p>
+                <p className="text-[var(--foreground-secondary)] mb-6 leading-relaxed">{product.description}</p>
 
                 <div className="mb-6">
                   <h3 className="text-xl font-semibold text-[#2D3436] mb-3">Характеристики</h3>
@@ -96,7 +96,7 @@ export default function ProductModal({ product, isOpen, onClose }: ProductModalP
                   {product.dimensions && (
                     <div className="mb-4">
                       <h4 className="font-medium text-[#2D3436] mb-2">Размеры:</h4>
-                      <ul className="text-[#636E72] space-y-1">
+                      <ul className="text-[var(--foreground-secondary)] space-y-1">
                         <li>Ширина: {product.dimensions.width} см</li>
                         <li>Высота: {product.dimensions.height} см</li>
                         {product.dimensions.depth && (
@@ -109,14 +109,14 @@ export default function ProductModal({ product, isOpen, onClose }: ProductModalP
                   {product.materials && product.materials.length > 0 && (
                     <div className="mb-4">
                       <h4 className="font-medium text-[#2D3436] mb-2">Материалы:</h4>
-                      <p className="text-[#636E72]">{product.materials.join(', ')}</p>
+                      <p className="text-[var(--foreground-secondary)]">{product.materials.join(', ')}</p>
                     </div>
                   )}
 
                   {(product.typeName || product.countryOfOrigin || (product.style && product.style.length) || (product.colors && product.colors.length)) && (
                     <div className="mb-4">
                       <h4 className="font-medium text-[#2D3436] mb-2">Общая информация:</h4>
-                      <ul className="text-[#636E72] space-y-1">
+                      <ul className="text-[var(--foreground-secondary)] space-y-1">
                         {product.typeName && <li>Тип: {product.typeName}</li>}
                         {product.countryOfOrigin && <li>Страна производства: {product.countryOfOrigin}</li>}
                         {product.style && product.style.length > 0 && (
@@ -132,7 +132,7 @@ export default function ProductModal({ product, isOpen, onClose }: ProductModalP
                   {(product.upholsteryMaterial || product.frameMaterial || product.legMaterial || product.finishMaterial || product.fixtureMaterial || (product.composition && product.composition.length > 0)) && (
                     <div className="mb-4">
                       <h4 className="font-medium text-[#2D3436] mb-2">Материалы и состав:</h4>
-                      <ul className="text-[#636E72] space-y-1">
+                      <ul className="text-[var(--foreground-secondary)] space-y-1">
                         {product.upholsteryMaterial && <li>Материал обивки: {product.upholsteryMaterial}</li>}
                         {product.frameMaterial && <li>Материал каркаса/рамы: {product.frameMaterial}</li>}
                         {product.legMaterial && <li>Материал ножек: {product.legMaterial}</li>}
@@ -148,7 +148,7 @@ export default function ProductModal({ product, isOpen, onClose }: ProductModalP
                   {(product.mechanism || typeof product.liftingMechanism === 'boolean' || typeof product.hasStorage === 'boolean' || product.maxLoadKg || product.lampType) && (
                     <div className="mb-4">
                       <h4 className="font-medium text-[#2D3436] mb-2">Функции и параметры:</h4>
-                      <ul className="text-[#636E72] space-y-1">
+                      <ul className="text-[var(--foreground-secondary)] space-y-1">
                         {product.mechanism && <li>Механизм: {product.mechanism}</li>}
                         {typeof product.liftingMechanism === 'boolean' && (
                           <li>Подъемный механизм: {product.liftingMechanism ? 'есть' : 'нет'}</li>
@@ -178,7 +178,7 @@ export default function ProductModal({ product, isOpen, onClose }: ProductModalP
                       className={`block w-full py-3 rounded-lg font-medium text-lg text-center transition-colors ${
                         product.inStock
                           ? 'bg-[#2D3436] text-white hover:bg-[#1a1d1f]'
-                          : 'bg-gray-300 text-[#636E72] cursor-not-allowed pointer-events-none'
+                          : 'bg-gray-300 text-[var(--foreground-secondary)] cursor-not-allowed pointer-events-none'
                       }`}
                     >
                       {product.inStock ? 'Перейти на сайт производителя' : 'Нет в наличии'}
@@ -189,7 +189,7 @@ export default function ProductModal({ product, isOpen, onClose }: ProductModalP
                       className={`w-full py-3 rounded-lg font-medium text-lg transition-colors ${
                         product.inStock
                           ? 'bg-[#2D3436] text-white hover:bg-[#1a1d1f]'
-                          : 'bg-gray-300 text-[#636E72] cursor-not-allowed'
+                          : 'bg-gray-300 text-[var(--foreground-secondary)] cursor-not-allowed'
                       }`}
                     >
                       {product.inStock ? 'Перейти на сайт производителя' : 'Нет в наличии'}

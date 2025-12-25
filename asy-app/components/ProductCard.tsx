@@ -27,7 +27,7 @@ export default function ProductCard({ product, onClick }: ProductCardProps) {
   return (
     <div
       onClick={() => onClick(product)}
-      className="bg-[rgb(192_213_206)] rounded-lg shadow-md overflow-hidden cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl flex flex-col"
+      className="bg-[var(--background-nav)] rounded-lg shadow-md overflow-hidden cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl flex flex-col"
     >
       <div className="relative h-64 bg-gray-200 overflow-hidden flex items-center justify-center">
         {hasImage ? (
@@ -60,11 +60,11 @@ export default function ProductCard({ product, onClick }: ProductCardProps) {
       <div className="p-4 flex flex-col flex-grow">
         <div className="flex justify-between items-start mb-2">
           <h3 className="text-lg font-semibold text-[#2D3436]">{product.name}</h3>
-          <span className="text-sm text-[#636E72] bg-[#C9DAD2] px-2 py-1 rounded">
+          <span className="text-sm text-[var(--foreground-secondary)] bg-[#C9DAD2] px-2 py-1 rounded">
             {categoryLabel[product.category] ?? product.category}
           </span>
         </div>
-        <p className="text-[#636E72] text-sm mb-4 line-clamp-2 leading-relaxed flex-grow">
+        <p className="text-[var(--foreground-secondary)] text-sm mb-4 line-clamp-2 leading-relaxed flex-grow">
           {product.shortDescription}
         </p>
         <div className="flex justify-between items-center mt-auto">

@@ -8,7 +8,7 @@ export default function HeroAbout() {
   ];
 
   return (
-    <section className="py-16 bg-[rgb(192_213_206)]">
+    <section className="py-16 bg-[var(--background)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-start">
           {/* Left Column - Image */}
@@ -29,7 +29,7 @@ export default function HeroAbout() {
           <div className="max-w-lg">
             <h2 className="text-4xl font-semibold text-[#2D3436] mb-6">О нас</h2>
             
-            <div className="space-y-4 mb-8 text-[#636E72] leading-relaxed">
+            <div className="space-y-4 mb-8 text-[var(--foreground)] leading-relaxed">
               <p>
                 Домострой — это не просто интернет-каталог, а комплексная экосистема, посвящённая импортозамещению в сфере строительства, отделки и обустройства дома.
               </p>
@@ -44,7 +44,7 @@ export default function HeroAbout() {
                 {goals.map((goal, index) => (
                   <li key={index} className="flex items-start">
                     <span className="text-[#D8A318] mr-3 mt-1 shrink-0">•</span>
-                    <span className="text-[#636E72] text-sm leading-relaxed">{goal}</span>
+                    <span className="text-[var(--foreground)] text-sm leading-relaxed">{goal}</span>
                   </li>
                 ))}
               </ul>

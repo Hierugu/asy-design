@@ -1,13 +1,13 @@
 export default function ContactPage() {
   return (
-    <main className="min-h-screen bg-[rgb(178_199_192)] py-12">
+    <main className="min-h-screen bg-[var(--background)] py-12">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-semibold text-[#2D3436] mb-8">Контакты</h1>
         
         <div className="grid md:grid-cols-2 gap-8">
           {/* Contact Info */}
           <div>
-            <div className="bg-[rgb(192_213_206)] rounded-lg shadow-sm p-6 mb-6">
+            <div className="bg-[var(--background-nav)] rounded-lg shadow-sm p-6 mb-6">
               <h2 className="text-2xl font-semibold text-[#2D3436] mb-6">Как с нами связаться</h2>
               
               <div className="space-y-4">
@@ -19,8 +19,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-medium text-[#2D3436] mb-1">Телефон</h3>
-                    <p className="text-[#636E72]">+7 (495) 123-45-67</p>
-                    <p className="text-[#636E72]">+7 (800) 555-35-35</p>
+                    <p className="text-[var(--foreground-secondary)]">+7 (495) 123-45-67</p>
+                    <p className="text-[var(--foreground-secondary)]">+7 (800) 555-35-35</p>
                   </div>
                 </div>
 
@@ -32,8 +32,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-medium text-[#2D3436] mb-1">Email</h3>
-                    <p className="text-[#636E72]">info@domostroy.ru</p>
-                    <p className="text-[#636E72]">sales@domostroy.ru</p>
+                    <p className="text-[var(--foreground-secondary)]">info@domostroy.ru</p>
+                    <p className="text-[var(--foreground-secondary)]">sales@domostroy.ru</p>
                   </div>
                 </div>
 
@@ -46,7 +46,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-medium text-[#2D3436] mb-1">Адрес</h3>
-                    <p className="text-[#636E72]">191028, Санкт-Петербург, Соляной переулок, дом 13</p>
+                    <p className="text-[var(--foreground-secondary)]">191028, Санкт-Петербург, Соляной переулок, дом 13</p>
                   </div>
                 </div>
 
@@ -58,8 +58,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-medium text-[#2D3436] mb-1">Режим работы</h3>
-                    <p className="text-[#636E72]">Пн-Пт: 9:00 - 20:00</p>
-                    <p className="text-[#636E72]">Сб-Вс: 10:00 - 18:00</p>
+                    <p className="text-[var(--foreground-secondary)]">Пн-Пт: 9:00 - 20:00</p>
+                    <p className="text-[var(--foreground-secondary)]">Сб-Вс: 10:00 - 18:00</p>
                   </div>
                 </div>
               </div>
@@ -67,7 +67,7 @@ export default function ContactPage() {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-[rgb(192_213_206)] rounded-lg shadow-sm p-6">
+          <div className="bg-[var(--background-nav)] rounded-lg shadow-sm p-6">
             <h2 className="text-2xl font-semibold text-[#2D3436] mb-6">Напишите нам</h2>
             
             <form className="space-y-4">

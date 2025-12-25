@@ -4,7 +4,7 @@ import "./globals.css";
 import Navigation from "@/components/Navigation";
 
 const bimFont = localFont({
-  src: "../public/Bim.otf",
+  src: "../public/Rodchenko.ttf",
   variable: "--font-bim",
   display: "swap",
 });
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <body
-        className={`${bimFont.variable} antialiased bg-[rgb(178_199_192)]`}
+        className={`${bimFont.variable} antialiased bg-[var(--background)]`}
       >
         <Navigation />
         {children}
