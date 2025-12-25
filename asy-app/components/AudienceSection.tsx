@@ -37,7 +37,7 @@ export default function AudienceSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8">
           {audiences.map((audience, index) => (
-            <div key={index} className="bg-[var(--background-nav)] rounded-xl p-8 shadow-sm">
+            <div key={index} className="bg-[var(--background-content)] rounded-xl p-8 shadow-sm">
               <h3 className="text-2xl font-semibold text-[#2D3436] mb-6">{audience.title}</h3>
               <ul className="space-y-3">
                 {audience.benefits.map((benefit, idx) => (

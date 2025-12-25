@@ -75,7 +75,7 @@ export default function CatalogPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-8">
           <h1 className="text-4xl font-semibold text-[#2D3436] mb-4">Каталог</h1>
-          <p className="text-lg text-[var(--foreground-secondary)] leading-relaxed">
+          <p className="text-lg text-[var(--foreground)] leading-relaxed">
             Выберите из нашей коллекции мебели и декора
           </p>
         </div>
@@ -89,7 +89,7 @@ export default function CatalogPage() {
               className={`px-6 py-2 rounded-lg font-medium transition-colors ${
                 filter === option.key
                   ? 'bg-[#2D3436] text-white'
-                  : 'bg-[var(--background-nav)] text-[#2D3436] hover:bg-[var(--background-nav)]'
+                  : 'bg-[var(--background-content)] text-[#2D3436] hover:bg-[var(--background-content)]'
               }`}
             >
               {option.label} ({option.key === 'all' ? products.length : countsByCategory[option.key]})

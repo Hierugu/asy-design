@@ -4,7 +4,7 @@ export default function AboutPage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-semibold text-[#2D3436] mb-8">О нас</h1>
         
-        <div className="bg-[var(--background-nav)] rounded-lg shadow-sm p-8 mb-8">
+        <div className="bg-[var(--background-content)] rounded-lg shadow-sm p-8 mb-8">
           <h2 className="text-2xl font-semibold text-[#2D3436] mb-4">Домострой</h2>
           <p className="text-[var(--foreground-secondary)] leading-relaxed mb-4">
             Домострой — это не просто интернет-каталог, а комплексная экосистема, посвящённая импортозамещению в сфере строительства, отделки и обустройства дома.
@@ -37,7 +37,7 @@ export default function AboutPage() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="bg-[var(--background-nav)] rounded-lg shadow-sm p-6">
+          <div className="bg-[var(--background-content)] rounded-lg shadow-sm p-6">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center mr-4">
                 <svg className="w-6 h-6 text-[#2D3436]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -51,7 +51,7 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="bg-[var(--background-nav)] rounded-lg shadow-sm p-6">
+          <div className="bg-[var(--background-content)] rounded-lg shadow-sm p-6">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center mr-4">
                 <svg className="w-6 h-6 text-[#2D3436]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -65,7 +65,7 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="bg-[var(--background-nav)] rounded-lg shadow-sm p-6">
+          <div className="bg-[var(--background-content)] rounded-lg shadow-sm p-6">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center mr-4">
                 <svg className="w-6 h-6 text-[#2D3436]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -79,7 +79,7 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="bg-[var(--background-nav)] rounded-lg shadow-sm p-6">
+          <div className="bg-[var(--background-content)] rounded-lg shadow-sm p-6">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center mr-4">
                 <svg className="w-6 h-6 text-[#2D3436]" fill="none" stroke="currentColor" viewBox="0 0 24 24">

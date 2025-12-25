@@ -12,7 +12,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Left Column - Text */}
-            <div>
+            <div className="text-center">
               <h1 className="text-5xl font-semibold text-[#2D3436] mb-6">
                 ДОМОСТРОЙ
               </h1>

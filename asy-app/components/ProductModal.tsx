@@ -45,7 +45,7 @@ export default function ProductModal({ product, isOpen, onClose }: ProductModalP
         />
 
         {/* Modal */}
-        <div className="relative bg-[var(--background-nav)] rounded-lg shadow-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+        <div className="relative bg-[var(--background-content)] rounded-lg shadow-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
           {/* Close button */}
           <button
             onClick={onClose}
@@ -72,11 +72,11 @@ export default function ProductModal({ product, isOpen, onClose }: ProductModalP
               {/* Details */}
               <div>
                 <div className="mb-4">
-                  <span className="inline-block bg-[#C9DAD2] text-[#2D3436] px-3 py-1 rounded-full text-sm font-medium mb-2">
+                  <span className="inline-block bg-[#D8A318] text-[#2D3436] px-3 py-1 rounded-full text-sm font-medium mb-2">
                     {categoryLabel[product.category] ?? product.category}
                   </span>
                   {product.inStock ? (
-                    <span className="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium ml-2">
+                    <span className="inline-block bg-[#D8A318] text-[#2D3436] px-3 py-1 rounded-full text-sm font-medium ml-2">
                       В наличии
                     </span>
                   ) : (

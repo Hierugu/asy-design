@@ -13,9 +13,10 @@ export default function HeroAbout() {
         <div className="grid md:grid-cols-2 gap-12 items-start">
           {/* Left Column - Image */}
           <div className="flex justify-center">
-            <div className="relative w-full max-w-md h-96 bg-gray-300 rounded-2xl overflow-hidden">
+            <div className="relative w-full max-w-md h-96 rounded-2xl overflow-hidden">
               <Image
-                src="/img/0.JPG"
+                src="/handhand.png"
+                // src="/img/0.JPG"
                 alt="Домострой — команда и производство"
                 fill
                 className="object-cover"
